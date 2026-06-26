@@ -7,6 +7,15 @@
 [![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange.svg?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![XGBoost & LightGBM](https://img.shields.io/badge/ML-XGBoost%20%7C%20LightGBM-green.svg)](https://xgboost.readthedocs.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DVC](https://img.shields.io/badge/DVC-9CF?style=flat&logo=data-version-control&logoColor=white)](https://dvc.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![ArgoCD](https://img.shields.io/badge/ArgoCD-FF7F00?style=flat&logo=argo&logoColor=white)](https://argoproj.github.io/argo-cd/)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)](https://prometheus.io/)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)](https://grafana.com/)
+[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)](https://mlflow.org/)
+[![Kubeflow](https://img.shields.io/badge/Kubeflow-FFA500?style=flat)](https://www.kubeflow.org/)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
 ## 🖥️ Application UI Preview
 
@@ -200,3 +209,101 @@ The system calculates a continuous probability of fraud ($0.0 \rightarrow 1.0$) 
 - **0 - 40%** $\rightarrow$ **LOW RISK**: Approve claim (Standard processing).
 - **41 - 70%** $\rightarrow$ **MEDIUM RISK**: Further review recommended.
 - **71 - 100%** $\rightarrow$ **HIGH RISK**: Manual investigation required (Route directly to SIU).
+
+---
+
+## 🛠️ MLOps Tooling & Command Reference
+
+### 1. DVC (Data Version Control)
+Used to version control models and datasets, offloading heavy binaries to AWS S3.
+* **Initialize DVC**:
+  ```bash
+  dvc init
+  ```
+* **Configure AWS S3 Remote**:
+  ```bash
+  dvc remote add -d myremote s3://insurance-claims-bucket/models
+  ```
+* **Track a Model**:
+  ```bash
+  dvc add models/fraud_model.pkl
+  ```
+* **Push/Pull Models**:
+  ```bash
+  dvc push
+  dvc pull
+  ```
+
+### 2. Docker Containerization
+Used to package the Python backend, UI templates, and estimators into an isolated, lightweight container image.
+* **Build Image**:
+  ```bash
+  docker build -t pnc-fraud-app .
+  ```
+* **Run Container**:
+  ```bash
+  docker run -d -p 8000:8000 --name pnc-app-instance pnc-fraud-app
+  ```
+
+### 3. Kubernetes, KIND & KServe Deployments
+Used to orchestrate containerized serving workloads and host the KServe InferenceService.
+* **Create KIND Local Cluster**:
+  ```bash
+  kind create cluster --name pnc-claims-cluster
+  ```
+* **Verify Cluster**:
+  ```bash
+  kubectl cluster-info
+  ```
+* **Install KServe CRDs**:
+  ```bash
+  kubectl apply -f https://github.com/kserve/kserve/releases/download/v0.11.0/kserve.yaml
+  ```
+* **Deploy Model Inference Endpoint**:
+  ```bash
+  kubectl apply -f k8s/namespace.yaml
+  kubectl apply -f k8s/serviceaccount.yaml
+  kubectl apply -f k8s/inference.yaml
+  ```
+* **Check Serving Pods & CRD Status**:
+  ```bash
+  kubectl get inferenceservice -n pc-claims
+  ```
+
+### 4. ArgoCD GitOps Sync
+Allows GitOps synchronization. Push config changes to GitHub, and ArgoCD automatically deploys the updated `inference.yaml` to KIND.
+* **Install ArgoCD**:
+  ```bash
+  kubectl create namespace argocd
+  kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+  ```
+* **Deploy Application Sync definition**:
+  ```bash
+  kubectl apply -f argocd/application.yaml
+  ```
+
+### 5. Prometheus & Grafana Monitoring Setup
+Tracks transaction volumes, error rates, latencies, and fraud ratios.
+* **Start Prometheus**:
+  ```bash
+  prometheus --config.file=monitoring/prometheus/prometheus.yml
+  ```
+* **Expose Metrics Endpoint**:
+  Accessible in browser or via scraping at: `http://localhost:8000/metrics`
+
+### 6. MLflow Experiment Tracking
+Used to record parameters, model objects, and metric curves during pipelines.
+* **Launch MLflow local server**:
+  ```bash
+  mlflow server --host 127.0.0.1 --port 5000
+  ```
+* **Register/Log parameters & metrics**: Automatically logged to local SQLite db (`./mlruns`) when executing `python train.py`.
+
+### 7. Kubeflow Pipelines (KFP)
+Used to orchestrate pipeline stages in a cloud-native environment.
+* **Compile Python DSL into KFP Manifest**:
+  ```bash
+  python src/pipeline/kubeflow_pipeline.py
+  ```
+  Generates `claims_pipeline.yaml` that can be imported directly into the Kubeflow Pipelines Dashboard.
+

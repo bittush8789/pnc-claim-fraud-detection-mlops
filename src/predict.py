@@ -1,10 +1,12 @@
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import pickle
 import pandas as pd
 import numpy as np
 
 # Import custom feature engineering
-from feature_engineering import add_engineered_features
+from src.components.data_transformation import add_engineered_features
 
 MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'models', 'fraud_model.pkl')
 
@@ -146,18 +148,16 @@ def generate_ai_narrative(inputs, result):
         'plan': plan
     }
 
+from src.pipeline.prediction_pipeline import PredictionPipeline
+
 def predict_claim(input_data, model=None):
     """
     Predicts fraud status (0 or 1), probability, and assigns risk level.
     """
-    if model is None:
-        model = load_model()
-        
-    prob = calculate_probability(input_data, model)
-    risk_info = assign_risk_level(prob)
+    pipeline = PredictionPipeline()
+    prediction, prob = pipeline.predict(input_data)
     
-    # Binary prediction based on standard threshold of 0.5
-    prediction = 1 if prob >= 0.5 else 0
+    risk_info = assign_risk_level(prob)
     
     res = {
         'prediction': prediction,

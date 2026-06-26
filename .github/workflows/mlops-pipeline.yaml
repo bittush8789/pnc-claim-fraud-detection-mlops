@@ -1,0 +1,65 @@
+name: MLOps CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - cicd
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  mlops-pipeline:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run ML Pipeline
+      run: |
+        python train.py
+
+    - name: Initialize DVC and Track Model
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      run: |
+        # Initialize DVC in no-scm mode for CI if not initialized
+        dvc init --no-scm --force
+        
+        # Configure AWS S3 remote
+        dvc remote add -d myremote s3://insurance-claims-bucket/models --force
+        
+        # Add model and track
+        dvc add models/fraud_model.pkl
+        # Note: In a real CI environment, uncomment the line below to push
+        # dvc push
+
+    - name: Update KServe Inference YAML
+      run: |
+        # Dynamically updates inference spec (e.g. updating timestamp tag or configuration hashes)
+        echo "Updating inference.yaml release metadata"
+        sed -i 's/version: .*/version: "v2.0.0-ci-${{ github.run_number }}"/g' k8s/inference.yaml || true
+
+    - name: Commit and Push CI Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add models/fraud_model.pkl.dvc k8s/inference.yaml validation_report.yaml metrics.json || true
+        git commit -m "Automated model update [run-${{ github.run_number }}]" || true
+        # In actual run, push the updated configs back to GitHub to trigger ArgoCD sync
+        # git push origin HEAD:${{ github.ref }}

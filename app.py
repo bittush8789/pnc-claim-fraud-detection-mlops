@@ -1,22 +1,21 @@
 import os
+import sys
 import pandas as pd
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
-import sys
+import time
 
 # Ensure src/ directory is in path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
-from predict import predict_claim, load_model
+from predict import predict_claim
+from pipeline.prediction_pipeline import PredictionPipeline
 
 app = Flask(__name__)
-app.secret_key = 'super-secret-key-for-pc-insurance-fraud-detection'
+app.secret_key = 'super-secret-key-for-pc-insurance-fraud-detection-mlops'
 
-# Cache model on startup if exists
-MODEL = None
-try:
-    MODEL = load_model()
-    print("Model loaded successfully on Flask startup.")
-except Exception as e:
-    print(f"Warning: Could not load model on startup: {e}. It will be loaded on demand.")
+# Metric counters for monitoring
+PREDICTION_COUNT = 0
+FRAUD_COUNT = 0
+TOTAL_LATENCY = 0.0
 
 def get_stats():
     """Reads the CSV and calculates real-time dashboard stats."""
@@ -42,16 +41,16 @@ def get_stats():
         'average_claim': avg_claim
     }
 
+# --- Web UI Routes ---
 @app.route('/')
 def index():
     stats = get_stats()
     return render_template('index.html', stats=stats)
 
-@app.route('/predict', methods=['GET', 'POST'])
-def predict():
+@app.route('/predict_ui', methods=['GET', 'POST'])
+def predict_ui():
     if request.method == 'POST':
         try:
-            # Extract form values and match type conversions
             form_data = {
                 'policy_age_days': int(request.form.get('policy_age_days', 365)),
                 'policy_type': request.form.get('policy_type', 'Auto'),
@@ -73,21 +72,90 @@ def predict():
                 'claim_month': request.form.get('claim_month', 'January')
             }
             
-            # Predict
-            global MODEL
-            if MODEL is None:
-                MODEL = load_model()
-                
-            res = predict_claim(form_data, MODEL)
-            
-            # Render results page with predictions
+            res = predict_claim(form_data)
             return render_template('result.html', result=res, inputs=form_data)
             
         except Exception as e:
             flash(f"Error during claim prediction: {str(e)}", "error")
-            return redirect(url_for('predict'))
+            return redirect(url_for('predict_ui'))
             
     return render_template('predict.html')
 
+# --- MLOps Production APIs ---
+
+@app.route('/health', methods=['GET'])
+def health():
+    """Kubernetes liveness/readiness probe target."""
+    return jsonify({"status": "healthy"}), 200
+
+@app.route('/metrics', methods=['GET'])
+def metrics():
+    """Prometheus monitoring exposition endpoint."""
+    global PREDICTION_COUNT, FRAUD_COUNT, TOTAL_LATENCY
+    avg_latency = TOTAL_LATENCY / PREDICTION_COUNT if PREDICTION_COUNT > 0 else 0.0
+    metric_text = (
+        f"# HELP pnc_predictions_total Total number of processed predictions\n"
+        f"# TYPE pnc_predictions_total counter\n"
+        f"pnc_predictions_total {PREDICTION_COUNT}\n"
+        f"# HELP pnc_fraud_total Total number of fraudulent claims detected\n"
+        f"# TYPE pnc_fraud_total counter\n"
+        f"pnc_fraud_total {FRAUD_COUNT}\n"
+        f"# HELP pnc_avg_latency_seconds Average prediction latency\n"
+        f"# TYPE pnc_avg_latency_seconds gauge\n"
+        f"pnc_avg_latency_seconds {avg_latency}\n"
+    )
+    return metric_text, 200, {'Content-Type': 'text/plain; version=0.0.4; charset=utf-8'}
+
+@app.route('/predict', methods=['POST'])
+def predict_api():
+    """Single claim prediction JSON endpoint."""
+    global PREDICTION_COUNT, FRAUD_COUNT, TOTAL_LATENCY
+    start_time = time.time()
+    try:
+        data = request.get_json(force=True)
+        res = predict_claim(data)
+        
+        # Track metrics
+        PREDICTION_COUNT += 1
+        if res['prediction'] == 1:
+            FRAUD_COUNT += 1
+        TOTAL_LATENCY += (time.time() - start_time)
+        
+        return jsonify({
+            "prediction": res['prediction_label'],
+            "probability": res['probability']
+        }), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
+
+@app.route('/batch-predict', methods=['POST'])
+def batch_predict_api():
+    """Batch claims prediction JSON endpoint."""
+    global PREDICTION_COUNT, FRAUD_COUNT, TOTAL_LATENCY
+    start_time = time.time()
+    try:
+        data_list = request.get_json(force=True)
+        if not isinstance(data_list, list):
+            return jsonify({"error": "Payload must be a list of claims"}), 400
+            
+        pipeline = PredictionPipeline()
+        results = []
+        
+        for item in data_list:
+            pred, prob = pipeline.predict(item)
+            PREDICTION_COUNT += 1
+            if pred == 1:
+                FRAUD_COUNT += 1
+            results.append({
+                "prediction": "FRAUDULENT CLAIM" if pred == 1 else "LEGITIMATE CLAIM",
+                "probability": prob
+            })
+            
+        TOTAL_LATENCY += (time.time() - start_time)
+        return jsonify(results), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
+
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    port = int(os.environ.get('PORT', 8000))
+    app.run(debug=True, host='0.0.0.0', port=port)

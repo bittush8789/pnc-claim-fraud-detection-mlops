@@ -1,0 +1,8 @@
+ingest:
+  test_size: 0.2
+  random_state: 42
+  source_path: "insurance_claims.csv"
+
+train:
+  random_state: 42
+  cv: 5

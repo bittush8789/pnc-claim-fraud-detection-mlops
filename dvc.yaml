@@ -1,0 +1,40 @@
+stages:
+  ingest:
+    cmd: python src/components/data_ingestion.py
+    deps:
+      - insurance_claims.csv
+      - src/components/data_ingestion.py
+    outs:
+      - artifacts/raw.csv
+      - artifacts/train.csv
+      - artifacts/test.csv
+
+  validate:
+    cmd: python src/components/data_validation.py
+    deps:
+      - artifacts/raw.csv
+      - src/components/data_validation.py
+    outs:
+      - validation_report.yaml
+
+  transform:
+    cmd: python -c "from src.components.data_transformation import DataTransformation; DataTransformation().initiate_data_transformation('artifacts/train.csv', 'artifacts/test.csv')"
+    deps:
+      - artifacts/train.csv
+      - artifacts/test.csv
+      - src/components/data_transformation.py
+    outs:
+      - artifacts/preprocessor.pkl
+
+  train:
+    cmd: python train.py
+    deps:
+      - artifacts/preprocessor.pkl
+      - train.py
+      - src/components/model_trainer.py
+      - src/components/model_evaluation.py
+    outs:
+      - models/fraud_model.pkl
+    metrics:
+      - metrics.json:
+          cache: false

@@ -1,0 +1,4 @@
+[ 2026-06-27 04:53:48,302 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-27 04:53:48,305 ] 97 werkzeug - INFO -  * Debugger PIN: 114-768-312
+[ 2026-06-27 04:53:59,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2026 04:53:59] "GET /health HTTP/1.1" 200 -
+[ 2026-06-27 04:55:21,404 ] 97 werkzeug - INFO -  * Detected change in 'D:\\P&C-fraud\\src\\predict.py', reloading

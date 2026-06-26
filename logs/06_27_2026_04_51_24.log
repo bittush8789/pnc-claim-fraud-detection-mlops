@@ -1,0 +1,46 @@
+[ 2026-06-27 04:51:27,282 ] 16 root - INFO - ==========================================
+[ 2026-06-27 04:51:27,283 ] 17 root - INFO - Starting Training Pipeline execution...
+[ 2026-06-27 04:51:27,283 ] 18 root - INFO - ==========================================
+[ 2026-06-27 04:51:27,283 ] 18 root - INFO - Starting data ingestion component...
+[ 2026-06-27 04:51:27,346 ] 21 root - INFO - Loaded source dataset 'insurance_claims.csv' shape: (1200, 19)
+[ 2026-06-27 04:51:27,364 ] 27 root - INFO - Performing train test split...
+[ 2026-06-27 04:51:27,418 ] 33 root - INFO - Ingestion completed. Raw, Train, and Test sets generated.
+[ 2026-06-27 04:51:27,419 ] 35 root - INFO - Initiating data validation on artifacts/raw.csv...
+[ 2026-06-27 04:51:27,477 ] 62 root - INFO - Validation report saved to validation_report.yaml
+[ 2026-06-27 04:51:27,478 ] 30 root - INFO - Data Validation passed.
+[ 2026-06-27 04:51:27,520 ] 83 root - INFO - Applying custom feature engineering inside data transformation pipeline...
+[ 2026-06-27 04:51:27,537 ] 97 root - INFO - Fitting transformer and transforming splits...
+[ 2026-06-27 04:51:27,576 ] 14 root - INFO - Saved object to artifacts\preprocessor.pkl
+[ 2026-06-27 04:51:27,576 ] 20 root - INFO - Splitting training and testing input data...
+[ 2026-06-27 04:51:27,576 ] 37 root - INFO - Training model: Logistic Regression...
+[ 2026-06-27 04:51:27,652 ] 14 root - ERROR - Error occurred in python script name [D:\P&C-fraud\src\pipeline\training_pipeline.py] line number [38] error message [Error occurred in python script name [D:\P&C-fraud\src\components\model_trainer.py] line number [48] error message [missing a required argument: 'y_score']]
+Traceback (most recent call last):
+  File "D:\P&C-fraud\src\components\model_trainer.py", line 48, in initiate_model_trainer
+    roc = roc_auc_score(y_test, y_prob=y_test_prob)
+  File "C:\Users\Bittu sharma\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "C:\Users\Bittu sharma\AppData\Local\Programs\Python\Python313\Lib\inspect.py", line 3269, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Bittu sharma\AppData\Local\Programs\Python\Python313\Lib\inspect.py", line 3182, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'y_score'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\P&C-fraud\src\pipeline\training_pipeline.py", line 38, in run_pipeline
+    best_model_name, model_data = trainer.initiate_model_trainer(train_arr, test_arr)
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\P&C-fraud\src\components\model_trainer.py", line 83, in initiate_model_trainer
+    raise CustomException(e, sys)
+src.exception.CustomException: Error occurred in python script name [D:\P&C-fraud\src\components\model_trainer.py] line number [48] error message [missing a required argument: 'y_score']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\P&C-fraud\train.py", line 9, in main
+    metrics = pipeline.run_pipeline()
+  File "D:\P&C-fraud\src\pipeline\training_pipeline.py", line 47, in run_pipeline
+    raise CustomException(e, sys)
+src.exception.CustomException: Error occurred in python script name [D:\P&C-fraud\src\pipeline\training_pipeline.py] line number [38] error message [Error occurred in python script name [D:\P&C-fraud\src\components\model_trainer.py] line number [48] error message [missing a required argument: 'y_score']]

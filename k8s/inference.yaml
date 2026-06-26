@@ -1,0 +1,14 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  name: pnc-claim-fraud
+  namespace: pc-claims
+  annotations:
+    version: "v1.0.0"
+spec:
+  predictor:
+    serviceAccountName: pc-claims-sa
+    model:
+      modelFormat:
+        name: sklearn
+      storageUri: s3://insurance-claims-bucket/models/

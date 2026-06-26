@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyze Claim - P&C Insurance Fraud Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-alert"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                <span>ShieldGuard SIU</span>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('index') }}">Dashboard</a></li>
+                    <li><a href="{{ url_for('predict') }}" class="active">Analyze Claim</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn-theme-toggle" aria-label="Toggle Theme"></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="form-container">
+            <h2 style="margin-bottom: 0.5rem; text-align: center;">New Claim Risk Analysis</h2>
+            <p style="color: var(--text-secondary); text-align: center; margin-bottom: 2rem;">Fill out the claimant and incident details to compute real-time fraud probability.</p>
+            
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div style="background-color: var(--danger); color: white; padding: 1rem; border-radius: 0.375rem; margin-bottom: 1.5rem;">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <form action="{{ url_for('predict') }}" method="POST">
+                <div class="form-grid">
+                    <!-- Policy Details Section -->
+                    <div class="form-section-title">Policy Information</div>
+                    
+                    <div class="form-group">
+                        <label for="policy_age_days">Policy Age (Days)</label>
+                        <input type="number" id="policy_age_days" name="policy_age_days" class="form-control" value="120" required min="0">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="policy_type">Policy Type</label>
+                        <select id="policy_type" name="policy_type" class="form-control" required>
+                            <option value="Auto" selected>Auto</option>
+                            <option value="Home">Home</option>
+                            <option value="Commercial">Commercial</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="premium_amount">Annual Premium ($)</label>
+                        <input type="number" id="premium_amount" name="premium_amount" class="form-control" value="1200" required min="0" step="0.01">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="insured_amount">Insured/Coverage Amount ($)</label>
+                        <input type="number" id="insured_amount" name="insured_amount" class="form-control" value="50000" required min="0" step="0.01">
+                    </div>
+
+                    <!-- Customer Details -->
+                    <div class="form-section-title">Customer Information</div>
+
+                    <div class="form-group">
+                        <label for="customer_age">Customer Age (Years)</label>
+                        <input type="number" id="customer_age" name="customer_age" class="form-control" value="35" required min="18" max="120">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="previous_claims">Previous Claims Count</label>
+                        <input type="number" id="previous_claims" name="previous_claims" class="form-control" value="0" required min="0" max="20">
+                    </div>
+
+                    <!-- Claim Details -->
+                    <div class="form-section-title">Claim & Incident Details</div>
+
+                    <div class="form-group">
+                        <label for="claim_amount">Claimed Amount ($)</label>
+                        <input type="number" id="claim_amount" name="claim_amount" class="form-control" value="15000" required min="0" step="0.01">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="claim_type">Claim Type</label>
+                        <select id="claim_type" name="claim_type" class="form-control" required>
+                            <option value="Collision" selected>Collision</option>
+                            <option value="Theft">Theft</option>
+                            <option value="Fire">Fire</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="incident_type">Incident Type</label>
+                        <select id="incident_type" name="incident_type" class="form-control" required>
+                            <option value="Single Vehicle Collision" selected>Single Vehicle Collision</option>
+                            <option value="Multi-Vehicle Collision">Multi-Vehicle Collision</option>
+                            <option value="Theft">Theft</option>
+                            <option value="Fire">Fire</option>
+                            <option value="Water Damage">Water Damage</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="incident_severity">Incident Severity</label>
+                        <select id="incident_severity" name="incident_severity" class="form-control" required>
+                            <option value="Minor">Minor</option>
+                            <option value="Major" selected>Major</option>
+                            <option value="Total Loss">Total Loss</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="witness_present">Witness Present</label>
+                        <select id="witness_present" name="witness_present" class="form-control" required>
+                            <option value="Yes">Yes</option>
+                            <option value="No" selected>No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="police_report">Police Report Filed</label>
+                        <select id="police_report" name="police_report" class="form-control" required>
+                            <option value="Yes">Yes</option>
+                            <option value="No" selected>No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="claim_submission_delay">Claim Submission Delay (Days)</label>
+                        <input type="number" id="claim_submission_delay" name="claim_submission_delay" class="form-control" value="5" required min="0">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="property_damage">Property Damage Reported</label>
+                        <select id="property_damage" name="property_damage" class="form-control" required>
+                            <option value="Yes" selected>Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bodily_injuries">Number of Bodily Injuries</label>
+                        <input type="number" id="bodily_injuries" name="bodily_injuries" class="form-control" value="0" required min="0" max="10">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="vehicles_involved">Number of Vehicles Involved</label>
+                        <input type="number" id="vehicles_involved" name="vehicles_involved" class="form-control" value="1" required min="0" max="10">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="state">Claim Submission State</label>
+                        <select id="state" name="state" class="form-control" required>
+                            <option value="NY" selected>NY</option>
+                            <option value="CA">CA</option>
+                            <option value="TX">TX</option>
+                            <option value="FL">FL</option>
+                            <option value="IL">IL</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="claim_month">Claim Month</label>
+                        <select id="claim_month" name="claim_month" class="form-control" required>
+                            <option value="January" selected>January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn">Run Risk Analysis</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ShieldGuard SIU Systems. All rights reserved. Confidential Internal Investigative Use Only.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

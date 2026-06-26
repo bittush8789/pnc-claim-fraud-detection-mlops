@@ -1,0 +1,1201 @@
+policy_age_days,policy_type,customer_age,claim_amount,insured_amount,premium_amount,previous_claims,claim_type,incident_type,incident_severity,witness_present,police_report,claim_submission_delay,property_damage,bodily_injuries,vehicles_involved,state,claim_month,fraud_reported
+3179,Auto,46,23852.79,50000,539.51,1,Theft,Theft,Minor,Yes,Yes,0,Yes,1,0,IL,March,0
+3512,Auto,30,8015.25,25000,488.32,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,6,No,0,2,IL,October,1
+865,Auto,35,1728.53,25000,453.31,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,2,No,4,1,FL,May,0
+1299,Auto,19,26490.39,100000,1024.24,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,8,No,0,3,FL,December,0
+1135,Auto,46,15589.07,50000,597.5,2,Fire,Fire,Total Loss,No,No,6,No,1,0,FL,September,0
+1100,Commercial,38,10215.47,50000,588.04,3,Fire,Fire,Major,No,No,2,Yes,1,0,FL,July,1
+3097,Auto,32,53295.08,50000,567.46,1,Fire,Fire,Total Loss,No,No,10,Yes,3,0,TX,April,1
+1643,Home,69,15206.79,50000,585.85,1,Collision,Single Vehicle Collision,Minor,No,Yes,1,No,1,1,IL,August,1
+2174,Auto,44,25803.91,250000,2197.63,3,Fire,Water Damage,Total Loss,No,Yes,15,No,0,0,TX,December,0
+471,Commercial,67,31533.61,500000,4131.28,0,Collision,Multi-Vehicle Collision,Minor,No,No,6,Yes,2,2,FL,April,0
+1243,Auto,48,15434.65,50000,558.99,0,Theft,Theft,Major,No,Yes,20,No,0,0,TX,June,1
+335,Auto,32,70850.35,250000,2094.4,2,Theft,Theft,Minor,No,Yes,0,Yes,0,0,IL,December,0
+1487,Commercial,68,49847.63,100000,1003.9,0,Collision,Multi-Vehicle Collision,Minor,No,No,1,Yes,3,2,IL,January,0
+2140,Commercial,40,9049.92,50000,603.91,0,Theft,Theft,Major,No,Yes,6,No,0,0,FL,June,1
+3449,Commercial,41,114931.33,500000,4288.93,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,11,Yes,0,2,IL,October,0
+3176,Auto,61,4339.23,25000,418.78,0,Collision,Single Vehicle Collision,Minor,No,Yes,0,No,0,1,TX,May,0
+2924,Auto,30,14888.69,25000,372.2,0,Fire,Fire,Minor,No,Yes,0,Yes,0,0,CA,February,0
+135,Home,39,98626.32,250000,2189.98,0,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,0,3,IL,January,1
+1690,Commercial,60,44549.76,50000,624.34,4,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,8,No,0,2,TX,June,1
+3385,Home,54,113749.11,250000,2211.38,1,Collision,Single Vehicle Collision,Minor,No,Yes,6,No,1,1,TX,November,0
+774,Home,78,71546.78,250000,2228.91,1,Fire,Water Damage,Total Loss,Yes,No,1,Yes,1,0,TX,February,0
+2396,Auto,50,1290.0,10000,298.85,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,0,Yes,1,4,IL,September,0
+1520,Home,73,89492.96,250000,2187.37,1,Collision,Multi-Vehicle Collision,Total Loss,No,No,3,No,0,3,CA,September,1
+3490,Auto,20,49567.06,50000,573.21,1,Fire,Fire,Major,No,Yes,1,Yes,1,0,FL,January,1
+2858,Auto,71,17960.86,50000,570.52,1,Collision,Multi-Vehicle Collision,Minor,No,No,6,No,0,4,FL,May,1
+2438,Auto,36,31891.59,100000,953.74,0,Collision,Multi-Vehicle Collision,Total Loss,No,No,2,No,0,2,IL,August,0
+1220,Home,40,92453.68,250000,2145.89,0,Theft,Theft,Minor,No,No,5,Yes,2,0,IL,April,1
+960,Auto,46,3198.2,10000,371.92,2,Collision,Multi-Vehicle Collision,Minor,Yes,No,8,No,0,3,NY,March,1
+2329,Auto,47,11548.36,50000,606.24,1,Theft,Theft,Major,Yes,Yes,3,No,1,0,CA,May,0
+1189,Home,56,19323.52,100000,992.23,1,Collision,Single Vehicle Collision,Minor,No,Yes,1,No,3,1,TX,May,1
+464,Auto,61,18161.46,100000,975.21,1,Fire,Water Damage,Major,Yes,Yes,6,Yes,0,0,TX,August,0
+3390,Home,64,13389.9,100000,1021.44,0,Fire,Water Damage,Minor,Yes,Yes,1,Yes,0,0,FL,June,0
+26,Auto,42,23585.35,25000,460.18,1,Collision,Single Vehicle Collision,Minor,No,Yes,9,Yes,0,1,IL,February,1
+2305,Auto,54,3154.03,25000,436.16,0,Collision,Single Vehicle Collision,Major,No,Yes,0,Yes,0,1,CA,November,1
+752,Home,64,23155.04,50000,646.08,1,Fire,Fire,Minor,No,Yes,8,Yes,1,0,FL,January,0
+2909,Auto,25,101679.67,250000,2170.67,5,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,1,3,CA,March,1
+3637,Auto,59,7250.93,25000,399.79,1,Collision,Multi-Vehicle Collision,Minor,No,No,0,Yes,0,2,IL,February,0
+479,Auto,75,7102.91,25000,371.33,0,Theft,Theft,Minor,No,Yes,2,Yes,0,0,TX,April,0
+1087,Auto,33,545298.01,500000,4205.35,0,Theft,Theft,Minor,No,Yes,14,Yes,4,0,NY,March,1
+2563,Commercial,25,3124.87,10000,343.63,1,Theft,Theft,Total Loss,No,No,18,Yes,0,0,CA,September,0
+2052,Auto,18,118380.57,500000,4221.97,2,Collision,Single Vehicle Collision,Minor,No,Yes,1,Yes,0,1,TX,May,1
+3552,Commercial,61,11883.4,100000,1081.34,1,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,0,No,0,4,CA,April,0
+2752,Auto,22,113625.72,250000,2185.57,1,Fire,Fire,Minor,No,Yes,1,No,1,0,CA,October,0
+980,Home,20,8593.48,25000,359.65,0,Theft,Theft,Minor,Yes,Yes,1,Yes,0,0,CA,September,0
+1811,Home,18,3276.7,10000,305.61,1,Theft,Theft,Minor,No,Yes,6,Yes,0,0,IL,April,0
+194,Home,21,51399.58,100000,1005.94,1,Fire,Fire,Minor,No,No,2,No,1,0,FL,June,1
+3010,Auto,57,49670.38,250000,2216.14,3,Theft,Theft,Minor,Yes,Yes,6,Yes,1,0,CA,October,1
+2739,Auto,52,15305.6,100000,1008.66,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,6,Yes,0,3,IL,January,0
+3010,Auto,49,10434.19,25000,375.78,1,Theft,Theft,Minor,No,No,3,No,0,0,NY,February,0
+567,Commercial,59,59977.54,100000,1009.79,0,Collision,Single Vehicle Collision,Minor,No,No,8,No,0,1,FL,April,1
+1904,Commercial,51,57335.51,100000,1048.67,1,Collision,Single Vehicle Collision,Major,No,Yes,0,No,0,1,IL,September,0
+3643,Commercial,60,52339.0,100000,1053.81,2,Collision,Multi-Vehicle Collision,Total Loss,No,No,0,No,0,3,NY,June,1
+1272,Auto,42,30717.28,100000,975.52,0,Theft,Theft,Minor,No,No,6,No,0,0,FL,June,0
+2884,Home,27,117678.08,250000,2211.55,0,Fire,Water Damage,Major,No,No,1,No,0,0,IL,November,1
+1533,Commercial,38,1523.26,100000,1073.86,1,Collision,Single Vehicle Collision,Major,Yes,No,0,No,0,1,NY,September,1
+3207,Auto,63,5446.63,10000,256.61,1,Collision,Single Vehicle Collision,Minor,Yes,No,10,Yes,3,1,IL,December,0
+3561,Auto,56,8003.98,50000,567.53,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,4,No,0,1,NY,April,0
+651,Home,44,977.22,10000,319.72,0,Theft,Theft,Total Loss,No,No,2,Yes,0,0,CA,March,1
+2073,Home,44,12585.93,50000,630.95,1,Theft,Theft,Minor,Yes,No,5,Yes,0,0,CA,July,1
+2893,Commercial,19,9275.7,50000,558.15,2,Collision,Single Vehicle Collision,Major,No,Yes,1,No,0,1,FL,December,0
+2219,Auto,58,2169.95,10000,210.03,0,Theft,Theft,Major,No,Yes,13,No,2,0,NY,July,0
+1302,Home,65,5763.36,50000,610.58,2,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,0,3,CA,September,0
+2440,Auto,30,8078.19,25000,379.07,0,Collision,Multi-Vehicle Collision,Minor,No,No,4,Yes,2,3,FL,June,1
+605,Auto,26,21763.29,250000,2115.8,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,6,No,0,1,TX,February,1
+2368,Auto,69,42183.95,250000,2165.64,0,Fire,Water Damage,Major,Yes,Yes,2,No,2,0,CA,June,0
+2066,Commercial,53,1400.3,10000,310.13,2,Collision,Single Vehicle Collision,Minor,Yes,No,6,Yes,0,1,CA,August,0
+246,Home,39,68406.31,500000,4192.43,0,Theft,Theft,Minor,No,Yes,11,No,0,0,IL,June,1
+2046,Home,59,17291.61,50000,678.31,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,6,Yes,0,3,TX,September,0
+2829,Auto,43,3799.67,25000,295.64,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,Yes,0,2,NY,April,1
+3422,Commercial,75,7803.07,10000,346.9,5,Collision,Multi-Vehicle Collision,Major,No,Yes,3,Yes,0,3,FL,March,1
+2617,Auto,71,6722.61,50000,582.8,2,Collision,Single Vehicle Collision,Minor,No,No,10,Yes,0,1,TX,November,0
+2950,Commercial,29,8032.62,100000,975.58,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,2,No,1,4,NY,May,0
+1368,Auto,34,11759.52,100000,922.44,2,Theft,Theft,Minor,Yes,Yes,5,Yes,0,0,CA,March,0
+2144,Auto,31,2558.56,10000,303.25,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,2,No,0,3,FL,November,0
+1395,Auto,31,666.2,10000,188.66,2,Theft,Theft,Minor,No,Yes,0,Yes,0,0,FL,December,0
+3008,Auto,74,18034.53,50000,640.9,0,Collision,Multi-Vehicle Collision,Major,No,No,0,No,1,2,TX,February,1
+1483,Home,51,4772.72,25000,324.33,0,Collision,Multi-Vehicle Collision,Major,No,Yes,13,No,0,2,IL,February,0
+3504,Home,70,4705.23,25000,332.21,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,Yes,0,4,NY,April,0
+2561,Auto,74,11640.67,25000,340.44,0,Fire,Water Damage,Major,No,Yes,0,No,0,0,TX,March,0
+780,Commercial,37,31323.47,250000,2164.2,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,8,No,2,3,IL,September,0
+39,Auto,28,27028.78,250000,2247.1,1,Collision,Multi-Vehicle Collision,Minor,No,No,3,No,1,4,IL,July,0
+2258,Home,33,14161.33,50000,675.2,0,Fire,Water Damage,Minor,No,Yes,6,No,0,0,IL,June,0
+3157,Commercial,68,48148.19,250000,2169.37,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,0,No,0,4,FL,October,0
+1960,Home,48,12706.85,50000,597.67,0,Theft,Theft,Total Loss,Yes,Yes,10,No,0,0,NY,December,1
+1590,Auto,72,45831.91,50000,624.5,3,Collision,Multi-Vehicle Collision,Major,No,Yes,4,Yes,0,4,NY,August,1
+3464,Commercial,23,3075.55,25000,383.53,3,Theft,Theft,Minor,No,No,6,No,0,0,TX,September,1
+3078,Home,73,6093.33,100000,1022.54,3,Collision,Multi-Vehicle Collision,Major,Yes,No,0,Yes,0,4,CA,March,0
+1026,Auto,36,171259.85,500000,4199.8,0,Fire,Water Damage,Minor,No,No,1,Yes,0,0,TX,December,1
+3466,Auto,54,100677.16,100000,987.33,1,Collision,Single Vehicle Collision,Minor,No,Yes,1,Yes,0,1,NY,October,1
+2618,Home,75,12655.63,50000,529.01,3,Collision,Multi-Vehicle Collision,Minor,No,Yes,13,No,0,3,FL,July,1
+1134,Home,21,27196.07,100000,1007.45,2,Collision,Multi-Vehicle Collision,Major,No,No,0,No,0,2,TX,September,1
+1505,Home,64,19376.11,25000,447.92,1,Collision,Single Vehicle Collision,Minor,No,Yes,5,Yes,0,1,CA,January,0
+707,Commercial,78,131544.61,250000,2161.09,0,Theft,Theft,Total Loss,No,No,0,Yes,0,0,TX,October,1
+2454,Home,21,11738.42,50000,501.59,1,Collision,Single Vehicle Collision,Minor,Yes,No,0,No,2,1,IL,September,0
+2782,Auto,37,43159.89,50000,584.02,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,1,Yes,1,2,CA,July,1
+1584,Auto,27,10306.34,50000,675.49,0,Collision,Multi-Vehicle Collision,Total Loss,No,No,7,Yes,0,3,IL,October,0
+166,Auto,41,37026.19,100000,1060.6,1,Collision,Single Vehicle Collision,Minor,No,Yes,6,No,0,1,FL,April,0
+206,Home,71,8531.18,10000,250.98,2,Collision,Multi-Vehicle Collision,Major,No,No,13,No,0,4,NY,November,1
+1986,Auto,52,70622.5,100000,1022.78,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,11,Yes,0,3,TX,December,1
+1000,Home,43,8659.48,25000,430.68,0,Theft,Theft,Total Loss,No,Yes,0,No,3,0,TX,June,0
+2322,Home,54,46198.27,100000,1074.52,1,Fire,Fire,Minor,Yes,Yes,7,No,0,0,IL,November,0
+820,Commercial,55,31081.79,250000,2122.47,4,Collision,Single Vehicle Collision,Minor,No,Yes,2,No,2,1,IL,November,0
+3347,Auto,38,124592.23,250000,2146.56,1,Theft,Theft,Major,No,No,9,Yes,0,0,NY,June,1
+460,Commercial,71,3864.33,50000,499.51,1,Collision,Multi-Vehicle Collision,Major,Yes,No,0,Yes,2,4,TX,June,0
+3538,Auto,57,8844.96,50000,566.08,1,Collision,Multi-Vehicle Collision,Major,No,Yes,7,Yes,1,4,NY,February,0
+1280,Commercial,56,9135.54,25000,453.32,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,0,No,1,1,IL,May,0
+1021,Auto,38,30078.93,100000,972.01,1,Collision,Single Vehicle Collision,Minor,No,No,1,No,0,1,IL,July,0
+2348,Auto,27,13765.41,25000,334.59,0,Collision,Multi-Vehicle Collision,Major,Yes,No,0,Yes,2,3,CA,June,0
+2772,Home,55,11295.91,50000,611.33,0,Fire,Fire,Minor,No,No,0,No,0,0,IL,March,0
+342,Auto,63,7857.35,25000,412.62,0,Fire,Fire,Minor,No,No,2,No,3,0,IL,November,0
+883,Auto,21,13367.99,25000,349.15,0,Collision,Multi-Vehicle Collision,Minor,No,No,7,No,1,3,NY,December,0
+1081,Home,77,6439.22,100000,974.7,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,6,No,0,4,CA,May,0
+796,Home,74,980.91,10000,287.53,0,Fire,Water Damage,Major,No,No,1,No,4,0,CA,August,1
+2269,Home,62,11149.81,100000,1037.3,2,Collision,Multi-Vehicle Collision,Major,No,No,0,Yes,2,4,TX,November,1
+768,Home,37,19608.17,50000,567.56,0,Theft,Theft,Minor,No,No,2,No,1,0,FL,May,1
+2240,Home,34,1964.13,10000,240.35,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,9,No,0,4,TX,December,0
+384,Auto,72,19424.01,50000,695.63,0,Collision,Multi-Vehicle Collision,Major,No,No,0,Yes,4,4,TX,October,0
+497,Auto,24,4041.22,10000,266.3,1,Collision,Single Vehicle Collision,Minor,No,Yes,3,No,1,1,TX,March,0
+3117,Auto,21,3977.05,25000,412.47,0,Fire,Fire,Major,Yes,Yes,0,Yes,1,0,CA,September,0
+1185,Commercial,46,15822.47,100000,1032.42,0,Fire,Water Damage,Major,Yes,No,2,Yes,3,0,NY,November,1
+2067,Home,31,1806.54,10000,190.66,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,0,Yes,0,1,IL,March,0
+69,Auto,20,101887.03,250000,2199.07,2,Theft,Theft,Major,Yes,Yes,0,No,0,0,CA,February,0
+2573,Auto,41,7845.14,10000,197.71,3,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,0,3,IL,June,0
+1372,Commercial,54,1209.2,25000,393.46,3,Collision,Single Vehicle Collision,Major,No,No,1,Yes,0,1,IL,August,1
+1157,Auto,33,88473.38,100000,1068.66,0,Theft,Theft,Minor,No,No,1,No,1,0,FL,June,1
+2032,Home,75,32283.68,50000,550.08,1,Collision,Single Vehicle Collision,Minor,No,Yes,4,No,0,1,TX,January,0
+2700,Home,72,6120.2,25000,316.68,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,0,No,0,2,FL,August,1
+1500,Home,69,33414.52,50000,694.38,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,Yes,0,2,TX,January,0
+3139,Auto,21,21896.56,25000,342.65,0,Fire,Water Damage,Minor,No,No,0,Yes,0,0,CA,September,1
+1167,Commercial,73,28229.22,250000,2125.07,0,Fire,Fire,Minor,No,Yes,9,No,0,0,IL,August,0
+1527,Commercial,79,19362.39,50000,680.95,1,Theft,Theft,Major,No,No,4,No,0,0,FL,June,1
+2645,Home,41,18649.23,100000,940.68,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,5,No,0,1,CA,February,0
+396,Home,51,44024.89,250000,2282.25,0,Theft,Theft,Minor,Yes,No,2,No,1,0,CA,September,0
+1703,Commercial,47,17480.33,50000,613.7,0,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,2,4,TX,August,0
+423,Home,35,102632.55,250000,2264.2,1,Fire,Fire,Minor,Yes,No,0,Yes,0,0,IL,April,1
+2341,Auto,36,35304.26,50000,609.3,2,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,3,No,0,2,TX,February,1
+383,Home,48,222320.31,500000,4253.99,1,Collision,Single Vehicle Collision,Minor,Yes,No,3,Yes,0,1,TX,June,0
+1801,Home,77,2275.01,10000,234.08,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,10,Yes,0,1,CA,January,0
+3566,Auto,77,105527.6,100000,969.32,1,Theft,Theft,Minor,No,Yes,9,Yes,3,0,TX,July,1
+2283,Home,36,27655.87,50000,494.22,0,Theft,Theft,Major,No,No,2,No,0,0,NY,January,1
+3070,Commercial,66,25990.16,50000,648.59,0,Collision,Multi-Vehicle Collision,Minor,No,No,2,No,0,2,IL,June,0
+2093,Commercial,63,35235.77,100000,1020.98,3,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,Yes,0,2,TX,May,0
+3104,Auto,36,72607.99,100000,949.63,5,Theft,Theft,Minor,No,Yes,1,Yes,3,0,TX,December,1
+2187,Auto,39,4834.46,10000,192.55,1,Collision,Multi-Vehicle Collision,Minor,No,No,11,Yes,0,2,FL,October,0
+205,Commercial,41,20911.03,25000,414.09,0,Theft,Theft,Major,No,No,0,No,0,0,IL,March,0
+1868,Commercial,62,22293.91,100000,1083.8,0,Fire,Fire,Major,No,Yes,15,No,0,0,IL,June,0
+784,Auto,29,41562.74,100000,993.1,0,Collision,Multi-Vehicle Collision,Minor,No,No,3,No,0,2,TX,April,1
+2982,Commercial,47,542395.53,500000,4167.08,2,Collision,Multi-Vehicle Collision,Total Loss,No,No,2,No,2,2,NY,December,1
+3109,Commercial,75,16560.64,100000,953.15,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,Yes,0,4,FL,June,0
+3124,Home,55,8608.66,500000,4262.47,2,Collision,Single Vehicle Collision,Total Loss,No,Yes,4,Yes,1,1,NY,April,0
+507,Home,70,98215.22,100000,961.04,1,Collision,Single Vehicle Collision,Minor,Yes,No,2,No,0,1,TX,January,0
+2459,Auto,48,3242.52,25000,381.44,0,Theft,Theft,Total Loss,Yes,No,2,Yes,0,0,IL,May,0
+1756,Auto,53,3485.55,25000,452.09,0,Collision,Multi-Vehicle Collision,Minor,No,No,1,Yes,0,4,IL,August,0
+809,Auto,36,40972.78,100000,1031.87,0,Collision,Single Vehicle Collision,Major,No,Yes,0,Yes,1,1,NY,June,1
+2151,Commercial,65,60370.96,100000,983.35,1,Theft,Theft,Minor,No,Yes,3,No,0,0,CA,October,1
+2736,Auto,62,2530.15,10000,245.05,0,Theft,Theft,Major,No,Yes,1,No,0,0,TX,September,0
+1900,Auto,53,18407.39,50000,673.28,1,Fire,Fire,Major,No,No,5,Yes,0,0,IL,April,1
+2778,Auto,47,202339.92,500000,4144.18,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,No,1,4,CA,October,1
+1575,Home,72,25611.91,50000,589.49,0,Theft,Theft,Total Loss,No,Yes,1,Yes,2,0,IL,September,0
+965,Commercial,66,25827.46,50000,524.71,0,Fire,Water Damage,Total Loss,No,Yes,4,No,2,0,IL,August,0
+2665,Auto,72,52502.44,50000,659.44,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,1,No,0,3,CA,March,1
+1490,Auto,50,27081.23,25000,376.26,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,5,Yes,0,1,NY,June,0
+2695,Home,35,18903.2,50000,565.02,0,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,2,TX,April,1
+1033,Auto,69,3877.19,50000,633.08,0,Fire,Water Damage,Total Loss,Yes,No,0,No,0,0,CA,January,0
+3294,Auto,66,3093.77,10000,208.72,2,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,1,Yes,2,2,CA,September,1
+507,Auto,76,29087.77,100000,1031.77,1,Fire,Fire,Minor,Yes,Yes,6,Yes,1,0,IL,April,0
+2819,Auto,45,24044.71,50000,581.97,1,Theft,Theft,Major,No,Yes,0,No,1,0,CA,November,0
+402,Auto,76,104830.75,250000,2139.74,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,0,Yes,0,1,TX,May,0
+875,Auto,64,221577.02,250000,2150.49,2,Collision,Single Vehicle Collision,Major,No,Yes,1,No,2,1,NY,March,0
+2847,Auto,28,26103.7,25000,365.79,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,0,No,3,1,NY,April,1
+397,Commercial,74,76902.19,100000,977.8,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,6,Yes,0,1,NY,September,0
+211,Auto,77,26082.21,50000,540.07,0,Theft,Theft,Major,No,No,3,Yes,0,0,TX,July,0
+1043,Home,71,52906.99,250000,2214.73,1,Theft,Theft,Total Loss,Yes,Yes,10,No,0,0,IL,August,0
+1886,Home,62,2495.98,25000,338.76,1,Collision,Single Vehicle Collision,Minor,No,Yes,0,Yes,0,1,TX,March,0
+3630,Auto,50,70987.34,100000,881.74,1,Theft,Theft,Minor,No,No,1,No,2,0,CA,March,1
+2944,Home,34,28423.03,100000,1095.98,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,No,0,3,FL,July,0
+1489,Auto,23,18975.24,25000,409.9,2,Collision,Multi-Vehicle Collision,Major,No,No,5,No,0,2,FL,August,1
+868,Commercial,21,3590.99,25000,500.47,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,0,4,FL,May,0
+2795,Auto,37,70243.37,100000,947.82,0,Collision,Single Vehicle Collision,Major,No,Yes,4,No,0,1,NY,January,0
+3317,Auto,65,38592.82,100000,1023.99,0,Fire,Fire,Total Loss,Yes,Yes,7,No,0,0,TX,March,0
+568,Auto,64,27434.86,50000,644.73,1,Theft,Theft,Major,No,No,0,No,4,0,TX,May,1
+1025,Commercial,44,24615.6,100000,990.53,0,Collision,Single Vehicle Collision,Minor,No,Yes,5,No,0,1,NY,March,0
+100,Home,32,29314.0,50000,527.78,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,1,No,1,4,CA,January,1
+1928,Home,23,14897.16,100000,986.78,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,13,No,1,3,FL,July,0
+1762,Auto,64,1846.56,25000,431.32,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,Yes,0,4,FL,January,1
+2537,Home,31,86151.39,250000,2229.41,0,Theft,Theft,Minor,No,No,0,No,3,0,NY,October,0
+3483,Auto,77,20379.79,25000,399.92,0,Fire,Water Damage,Major,No,Yes,2,Yes,0,0,FL,June,1
+2283,Commercial,28,15823.51,50000,644.86,1,Theft,Theft,Major,No,No,15,Yes,1,0,IL,June,1
+2801,Auto,56,9168.55,10000,322.5,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,5,Yes,1,3,TX,July,1
+1683,Auto,26,22688.08,25000,373.82,0,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,0,4,FL,December,1
+3247,Auto,43,8974.81,50000,523.98,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,Yes,0,2,FL,November,1
+545,Auto,33,26179.64,25000,409.52,2,Collision,Multi-Vehicle Collision,Minor,No,No,4,No,1,4,IL,January,1
+1064,Home,22,82385.33,250000,2162.67,0,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,3,CA,November,0
+2577,Auto,74,2800.43,10000,287.19,0,Collision,Multi-Vehicle Collision,Major,No,No,0,Yes,0,2,CA,March,1
+1188,Home,69,20780.43,50000,667.28,1,Collision,Multi-Vehicle Collision,Minor,No,No,3,No,1,3,IL,December,0
+1727,Auto,78,21938.63,50000,621.87,0,Theft,Theft,Minor,No,Yes,2,No,1,0,CA,September,1
+3319,Home,27,3772.2,10000,344.81,0,Theft,Theft,Total Loss,Yes,No,0,No,0,0,NY,February,0
+3162,Auto,67,4767.83,25000,349.43,0,Collision,Multi-Vehicle Collision,Total Loss,No,No,6,Yes,0,2,IL,May,0
+1824,Auto,20,27513.2,50000,654.37,0,Theft,Theft,Minor,Yes,No,3,Yes,0,0,TX,March,0
+2630,Home,30,52022.22,50000,683.83,1,Collision,Single Vehicle Collision,Major,Yes,Yes,1,No,0,1,TX,December,1
+2734,Auto,60,12991.16,50000,603.22,2,Collision,Multi-Vehicle Collision,Major,No,Yes,0,Yes,0,2,TX,December,0
+2609,Auto,66,8041.54,50000,716.1,1,Theft,Theft,Minor,No,No,4,Yes,3,0,FL,May,0
+1602,Commercial,47,47870.48,50000,557.13,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,Yes,0,4,IL,July,1
+3065,Commercial,79,697.45,10000,248.06,0,Fire,Water Damage,Minor,No,Yes,4,No,0,0,IL,January,0
+2698,Auto,71,6024.05,50000,632.5,1,Collision,Single Vehicle Collision,Minor,No,No,1,Yes,1,1,CA,March,0
+800,Auto,62,108362.8,500000,4202.72,0,Collision,Single Vehicle Collision,Major,No,Yes,4,No,0,1,IL,November,1
+1056,Home,23,21874.2,50000,562.85,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,10,No,0,4,IL,June,0
+1648,Auto,34,89123.88,100000,1030.96,1,Theft,Theft,Minor,No,Yes,1,No,1,0,CA,July,1
+3632,Auto,76,6340.96,50000,617.78,2,Theft,Theft,Major,Yes,No,1,Yes,1,0,IL,October,1
+1368,Auto,62,34997.12,100000,970.69,0,Theft,Theft,Minor,No,No,6,No,1,0,IL,March,0
+1986,Home,68,104449.34,100000,1009.45,2,Theft,Theft,Major,No,No,0,Yes,1,0,NY,April,1
+1359,Home,70,14251.32,50000,637.95,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,1,Yes,0,2,CA,June,0
+1668,Auto,36,125888.72,500000,4169.58,0,Collision,Single Vehicle Collision,Minor,No,Yes,0,Yes,2,1,NY,May,0
+1534,Auto,59,6571.84,25000,425.85,0,Theft,Theft,Total Loss,Yes,Yes,1,Yes,0,0,FL,November,0
+2043,Auto,52,2574.47,10000,236.65,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,2,No,0,4,CA,September,0
+3424,Home,63,95238.82,100000,966.31,2,Fire,Water Damage,Major,No,Yes,0,No,0,0,IL,December,1
+1501,Auto,43,72967.58,250000,2255.58,1,Collision,Single Vehicle Collision,Minor,No,Yes,9,No,0,1,IL,January,1
+3307,Auto,68,3886.4,25000,430.69,0,Collision,Multi-Vehicle Collision,Total Loss,No,No,3,Yes,0,4,NY,May,1
+2242,Home,22,19948.4,25000,305.66,0,Collision,Single Vehicle Collision,Major,No,No,3,No,0,1,NY,November,0
+3301,Auto,46,3553.41,10000,261.29,1,Fire,Fire,Minor,No,Yes,2,Yes,0,0,FL,January,0
+1413,Home,54,12986.7,25000,424.48,0,Fire,Fire,Major,No,No,4,No,0,0,FL,August,1
+1405,Auto,37,6500.97,100000,1006.94,0,Collision,Multi-Vehicle Collision,Minor,No,No,2,Yes,1,3,IL,July,0
+1311,Auto,66,8083.12,50000,630.91,3,Collision,Multi-Vehicle Collision,Total Loss,Yes,No,6,No,1,4,TX,May,1
+2685,Auto,38,13043.19,50000,605.8,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,7,No,0,2,FL,June,0
+2680,Home,27,5027.63,50000,593.37,0,Collision,Multi-Vehicle Collision,Major,No,Yes,4,Yes,0,4,IL,April,0
+977,Commercial,22,8736.75,10000,271.84,0,Fire,Water Damage,Minor,No,Yes,3,No,0,0,FL,September,1
+1773,Commercial,53,7860.72,25000,454.56,0,Collision,Multi-Vehicle Collision,Major,No,Yes,6,No,0,2,CA,March,1
+1287,Auto,23,38279.62,100000,1034.75,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,3,No,1,2,NY,February,0
+3435,Home,43,197694.44,500000,4220.24,2,Collision,Single Vehicle Collision,Total Loss,Yes,No,0,No,0,1,IL,July,1
+714,Auto,21,72495.18,250000,2204.44,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,No,0,3,FL,February,1
+1484,Auto,79,6140.54,10000,252.56,0,Theft,Theft,Major,No,Yes,13,No,0,0,NY,June,0
+1439,Commercial,56,182115.53,250000,2184.66,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,2,2,TX,November,1
+653,Auto,56,50579.22,100000,1053.23,3,Collision,Single Vehicle Collision,Minor,No,No,7,No,0,1,FL,August,0
+322,Auto,67,36780.15,100000,1048.53,4,Fire,Water Damage,Minor,Yes,Yes,1,No,1,0,IL,March,0
+3301,Auto,52,5208.57,50000,567.57,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,2,No,0,2,CA,March,0
+1262,Auto,18,8377.44,50000,605.0,0,Theft,Theft,Major,No,No,4,Yes,1,0,NY,March,1
+688,Auto,41,22929.99,50000,624.92,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,Yes,3,3,NY,January,1
+668,Home,74,4384.69,10000,301.66,2,Collision,Multi-Vehicle Collision,Major,No,No,5,No,0,2,CA,September,1
+2003,Auto,53,4557.68,25000,421.27,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,No,2,3,IL,May,0
+3450,Commercial,23,4749.79,25000,344.4,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,Yes,1,2,TX,September,0
+1636,Commercial,58,9314.73,50000,541.43,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,3,No,1,4,CA,May,0
+1500,Auto,71,38914.87,100000,1058.51,0,Collision,Multi-Vehicle Collision,Minor,No,No,0,Yes,1,3,TX,July,1
+3309,Auto,63,10781.02,50000,675.45,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,2,No,0,3,IL,January,1
+1141,Auto,77,4899.03,10000,205.92,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,No,0,2,FL,September,0
+1858,Home,61,122346.65,500000,4198.61,1,Theft,Theft,Minor,Yes,Yes,1,No,3,0,FL,January,0
+1525,Auto,77,176978.27,250000,2240.7,1,Fire,Water Damage,Major,Yes,Yes,10,No,0,0,IL,April,0
+2494,Home,74,79730.92,100000,889.81,0,Collision,Single Vehicle Collision,Minor,No,No,3,No,4,1,TX,July,0
+568,Auto,48,132402.88,500000,4146.33,3,Collision,Single Vehicle Collision,Minor,Yes,Yes,6,Yes,0,1,CA,November,0
+1296,Home,37,15069.63,50000,595.39,2,Theft,Theft,Total Loss,No,Yes,3,No,0,0,IL,December,0
+3586,Auto,41,374661.16,500000,4170.14,0,Theft,Theft,Total Loss,No,Yes,0,Yes,1,0,IL,September,0
+3462,Auto,42,7096.96,10000,290.46,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,No,2,3,FL,January,1
+3463,Commercial,53,26512.24,50000,673.52,0,Collision,Single Vehicle Collision,Major,No,No,6,No,0,1,CA,December,1
+3189,Home,38,5865.02,25000,357.36,0,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,0,2,FL,November,0
+1641,Auto,47,5806.92,25000,402.51,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,7,No,1,3,TX,June,0
+3004,Commercial,41,4076.67,25000,382.76,2,Fire,Fire,Minor,No,Yes,3,No,3,0,TX,November,0
+3157,Auto,61,43580.67,100000,1006.82,2,Theft,Theft,Major,Yes,Yes,0,No,1,0,NY,October,0
+703,Commercial,59,25107.61,100000,1000.29,0,Theft,Theft,Minor,No,Yes,3,Yes,0,0,IL,November,0
+2165,Home,47,48599.57,50000,731.86,1,Collision,Single Vehicle Collision,Total Loss,No,No,2,Yes,0,1,CA,May,1
+6,Auto,39,3958.96,25000,474.48,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,3,3,CA,March,0
+646,Auto,45,40457.18,250000,2120.95,2,Fire,Fire,Minor,No,Yes,6,No,0,0,FL,October,0
+2272,Auto,24,7367.2,100000,954.99,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,10,No,0,4,FL,February,0
+1594,Home,52,15309.13,50000,561.11,1,Collision,Multi-Vehicle Collision,Minor,No,No,6,No,0,2,CA,January,1
+859,Home,72,20556.6,100000,938.29,1,Collision,Single Vehicle Collision,Minor,No,Yes,8,No,0,1,FL,February,0
+1764,Auto,45,24495.44,25000,331.58,0,Collision,Single Vehicle Collision,Minor,No,No,10,No,0,1,NY,December,0
+3301,Auto,31,23045.03,50000,591.08,0,Collision,Multi-Vehicle Collision,Minor,No,No,10,No,0,4,IL,April,0
+2437,Commercial,73,68604.05,250000,2163.02,1,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,1,3,NY,June,0
+3479,Commercial,27,4596.16,25000,355.46,0,Fire,Fire,Minor,Yes,No,2,No,0,0,TX,December,1
+1666,Home,33,16764.4,50000,701.02,3,Theft,Theft,Minor,No,Yes,0,No,0,0,CA,May,1
+1158,Auto,33,104685.82,250000,2166.46,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,No,0,2,NY,April,1
+1081,Auto,71,103803.27,100000,977.84,3,Theft,Theft,Total Loss,No,No,11,Yes,3,0,NY,August,1
+1712,Auto,48,1050.66,10000,317.07,0,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,1,4,FL,December,0
+2782,Commercial,59,5669.26,25000,377.67,0,Collision,Single Vehicle Collision,Minor,No,No,4,Yes,0,1,FL,July,0
+1700,Auto,42,2180.15,10000,221.72,0,Theft,Theft,Total Loss,No,No,4,Yes,0,0,FL,April,0
+1738,Home,30,109432.27,100000,987.1,1,Collision,Single Vehicle Collision,Major,No,Yes,0,No,0,1,TX,October,1
+1444,Auto,23,24810.17,50000,700.44,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,2,3,NY,May,0
+2299,Home,61,17068.8,25000,375.93,0,Theft,Theft,Minor,Yes,No,2,Yes,0,0,IL,December,1
+840,Home,26,206166.52,500000,4154.41,0,Fire,Fire,Major,Yes,No,0,Yes,0,0,FL,October,1
+3515,Commercial,62,9779.69,50000,621.01,1,Collision,Single Vehicle Collision,Minor,No,Yes,3,No,1,1,TX,May,0
+207,Auto,53,531.17,25000,384.7,0,Collision,Multi-Vehicle Collision,Major,No,Yes,2,No,1,4,TX,March,0
+3260,Auto,73,15874.63,50000,736.95,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,3,Yes,0,3,FL,September,0
+127,Auto,60,8787.9,100000,960.66,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,0,No,0,3,CA,November,0
+405,Commercial,37,3470.32,10000,366.69,1,Collision,Single Vehicle Collision,Minor,No,Yes,3,Yes,0,1,NY,May,0
+771,Commercial,35,7438.51,25000,458.17,1,Collision,Multi-Vehicle Collision,Major,Yes,No,0,No,0,2,FL,December,1
+298,Home,75,30209.27,250000,2180.93,5,Theft,Theft,Major,No,Yes,9,No,0,0,IL,October,0
+2332,Home,60,12092.75,50000,599.82,1,Collision,Multi-Vehicle Collision,Major,Yes,No,1,No,4,2,NY,February,1
+2936,Home,74,18589.28,50000,548.51,0,Collision,Single Vehicle Collision,Minor,No,No,8,No,0,1,TX,April,0
+202,Auto,38,47500.39,50000,573.08,0,Collision,Single Vehicle Collision,Major,Yes,No,5,Yes,1,1,IL,December,0
+3034,Commercial,21,2829.92,10000,260.58,1,Collision,Multi-Vehicle Collision,Major,Yes,No,6,No,0,2,NY,April,0
+1935,Auto,67,907.75,25000,407.89,1,Fire,Water Damage,Total Loss,No,Yes,1,Yes,0,0,IL,May,1
+3587,Auto,50,22641.6,50000,529.37,2,Collision,Multi-Vehicle Collision,Major,Yes,No,1,No,2,3,TX,August,1
+2804,Home,44,8247.88,25000,415.57,1,Fire,Fire,Minor,No,Yes,2,No,1,0,FL,May,0
+2196,Auto,24,7086.59,10000,272.71,1,Fire,Water Damage,Major,No,No,0,Yes,4,0,IL,January,0
+613,Auto,23,260474.61,250000,2219.91,0,Theft,Theft,Minor,Yes,Yes,11,No,0,0,FL,February,1
+3277,Home,32,97977.42,500000,4227.37,0,Collision,Multi-Vehicle Collision,Major,No,No,2,Yes,0,4,TX,March,1
+1152,Auto,35,75084.96,100000,988.7,0,Fire,Water Damage,Minor,No,Yes,20,No,0,0,TX,March,0
+191,Home,49,93577.18,250000,2224.41,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,6,No,0,2,IL,October,1
+3402,Auto,73,10722.86,25000,395.64,1,Collision,Single Vehicle Collision,Major,No,Yes,0,No,0,1,IL,June,0
+2516,Auto,28,242500.39,500000,4237.17,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,4,No,2,2,TX,September,0
+3425,Auto,37,20329.48,25000,415.81,0,Collision,Single Vehicle Collision,Major,Yes,Yes,1,Yes,0,1,IL,October,1
+1799,Auto,41,57227.48,500000,4209.05,0,Collision,Single Vehicle Collision,Major,Yes,Yes,1,No,3,1,IL,January,0
+664,Home,32,118820.74,500000,4194.88,0,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,0,2,IL,June,0
+2816,Auto,65,79099.64,100000,1064.79,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,11,Yes,1,2,IL,September,0
+3007,Home,24,82182.35,500000,4220.26,1,Theft,Theft,Total Loss,Yes,Yes,3,Yes,0,0,NY,April,0
+1960,Auto,38,10330.82,50000,533.93,0,Collision,Single Vehicle Collision,Minor,No,Yes,4,No,0,1,TX,October,0
+2455,Home,59,8802.18,25000,376.4,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,1,No,2,3,TX,March,0
+1374,Commercial,43,23337.94,50000,588.57,1,Fire,Fire,Major,No,No,3,No,0,0,CA,June,0
+1991,Home,61,15392.1,50000,599.94,4,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,1,No,1,4,FL,June,1
+1539,Auto,73,1663.71,10000,288.84,0,Theft,Theft,Major,Yes,No,1,No,0,0,CA,February,0
+151,Auto,31,32946.05,100000,952.79,0,Fire,Fire,Major,No,Yes,1,Yes,2,0,IL,May,0
+3224,Auto,74,110765.44,500000,4196.6,0,Collision,Single Vehicle Collision,Total Loss,Yes,No,2,No,1,1,IL,January,1
+2916,Home,54,1872.32,25000,384.29,0,Collision,Single Vehicle Collision,Major,No,No,4,Yes,0,1,NY,September,0
+1739,Auto,75,21431.98,100000,1054.24,3,Fire,Fire,Major,No,No,1,No,0,0,NY,September,1
+1848,Auto,38,100010.23,250000,2150.25,1,Fire,Fire,Minor,No,Yes,15,Yes,0,0,NY,March,0
+493,Home,35,64160.44,250000,2199.13,1,Theft,Theft,Minor,No,Yes,0,No,0,0,NY,May,1
+2981,Auto,22,432184.31,500000,4165.73,0,Collision,Single Vehicle Collision,Major,No,Yes,2,No,0,1,NY,March,1
+1964,Home,20,33957.77,50000,693.15,1,Fire,Fire,Major,No,No,0,No,0,0,NY,July,1
+1668,Auto,40,498725.74,500000,4262.83,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,Yes,0,3,NY,January,1
+2603,Auto,43,11483.5,100000,917.88,1,Collision,Multi-Vehicle Collision,Minor,No,No,11,No,3,3,NY,May,0
+2390,Home,54,5810.5,25000,360.19,1,Collision,Single Vehicle Collision,Major,No,Yes,7,Yes,0,1,NY,June,1
+2924,Auto,41,13735.65,50000,643.55,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,No,3,3,TX,November,1
+645,Home,66,13846.56,100000,1022.86,0,Theft,Theft,Minor,No,Yes,8,No,0,0,NY,December,0
+1807,Auto,36,6790.16,25000,421.3,2,Theft,Theft,Minor,No,Yes,7,No,1,0,FL,July,0
+2525,Auto,68,86650.44,100000,1009.54,0,Theft,Theft,Major,No,No,4,Yes,0,0,NY,March,1
+1974,Commercial,42,20613.74,100000,1047.56,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,8,No,0,2,IL,July,0
+2203,Home,38,6729.64,25000,439.05,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,2,No,2,1,IL,April,1
+1443,Home,29,8925.41,50000,585.47,0,Theft,Theft,Minor,Yes,Yes,3,No,4,0,NY,October,0
+3374,Auto,74,25158.16,100000,940.04,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,6,No,0,4,NY,November,0
+1639,Home,78,52547.49,50000,515.5,1,Fire,Fire,Major,Yes,Yes,0,No,3,0,IL,June,0
+267,Auto,58,2852.83,10000,274.82,1,Theft,Theft,Major,No,Yes,8,No,1,0,FL,May,0
+1792,Auto,50,2053.55,10000,188.0,0,Theft,Theft,Minor,Yes,No,0,No,3,0,CA,April,0
+2196,Commercial,67,25308.84,50000,612.55,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,8,No,0,3,TX,June,0
+2398,Auto,70,64786.5,250000,2184.6,2,Theft,Theft,Total Loss,Yes,Yes,1,Yes,3,0,IL,December,0
+628,Commercial,21,1350.59,25000,497.2,0,Fire,Fire,Minor,Yes,Yes,1,No,2,0,NY,March,1
+1021,Auto,59,27049.58,100000,1017.16,0,Collision,Multi-Vehicle Collision,Major,No,No,0,No,0,3,TX,March,1
+3648,Auto,74,5811.49,25000,398.54,2,Theft,Theft,Minor,No,No,9,No,0,0,NY,May,0
+885,Home,24,20344.46,50000,519.19,0,Collision,Single Vehicle Collision,Minor,No,No,0,Yes,0,1,CA,November,0
+2054,Commercial,39,163035.62,250000,2136.88,0,Collision,Single Vehicle Collision,Minor,No,No,4,Yes,0,1,CA,May,0
+2949,Home,72,21391.2,100000,1034.07,0,Theft,Theft,Major,No,No,4,No,2,0,IL,September,1
+1332,Commercial,50,6567.39,10000,264.35,0,Theft,Theft,Minor,Yes,Yes,1,No,1,0,TX,April,0
+2306,Home,34,21212.05,50000,726.77,0,Fire,Fire,Minor,No,Yes,19,No,1,0,TX,May,0
+457,Home,41,2534.36,10000,275.85,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,Yes,0,3,CA,December,0
+3113,Commercial,78,14059.64,50000,608.45,1,Collision,Single Vehicle Collision,Minor,No,Yes,4,Yes,0,1,NY,September,0
+1188,Auto,78,55571.45,100000,934.16,0,Theft,Theft,Minor,No,No,2,No,0,0,IL,April,0
+3067,Auto,51,9629.46,25000,447.37,2,Collision,Single Vehicle Collision,Minor,No,No,1,No,1,1,FL,March,0
+2061,Auto,45,4686.61,25000,353.71,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,0,Yes,0,1,CA,July,0
+3309,Commercial,75,21908.78,50000,626.22,3,Collision,Multi-Vehicle Collision,Major,No,Yes,5,Yes,0,2,CA,July,1
+3175,Commercial,60,219547.77,250000,2240.59,3,Collision,Single Vehicle Collision,Major,Yes,No,11,No,0,1,IL,August,1
+1687,Auto,58,178338.66,500000,4204.76,1,Theft,Theft,Minor,Yes,Yes,0,Yes,0,0,NY,April,0
+2868,Home,56,10494.69,10000,367.85,3,Theft,Theft,Minor,No,Yes,0,No,0,0,TX,April,1
+2260,Commercial,39,12286.53,100000,969.46,1,Collision,Multi-Vehicle Collision,Major,No,No,19,Yes,0,2,CA,September,0
+1159,Auto,66,15853.24,50000,683.78,2,Collision,Single Vehicle Collision,Minor,Yes,Yes,0,No,3,1,IL,October,0
+408,Home,34,8881.67,50000,536.45,0,Collision,Multi-Vehicle Collision,Minor,No,No,3,Yes,0,3,IL,July,0
+2204,Commercial,51,51188.25,100000,1039.95,0,Collision,Single Vehicle Collision,Major,No,No,3,No,2,1,IL,March,1
+2106,Auto,23,97198.55,250000,2192.88,1,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,1,Yes,0,2,TX,September,0
+3196,Home,63,224777.42,500000,4164.59,0,Collision,Single Vehicle Collision,Minor,No,Yes,4,Yes,2,1,CA,May,1
+1701,Auto,23,24995.89,50000,516.94,2,Theft,Theft,Minor,Yes,No,12,Yes,0,0,IL,April,0
+632,Commercial,51,14472.62,50000,586.97,2,Theft,Theft,Total Loss,No,Yes,2,No,2,0,TX,January,0
+591,Commercial,18,36318.09,100000,983.81,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,6,No,2,1,NY,September,0
+1653,Commercial,27,4644.61,25000,408.65,2,Theft,Theft,Total Loss,No,No,4,Yes,0,0,FL,June,1
+1448,Auto,38,11543.74,50000,636.24,0,Fire,Fire,Minor,No,Yes,2,Yes,3,0,CA,November,0
+1450,Commercial,22,17452.3,50000,559.58,0,Collision,Single Vehicle Collision,Minor,No,Yes,0,No,0,1,TX,February,0
+108,Commercial,19,24416.64,100000,1087.91,1,Collision,Single Vehicle Collision,Major,Yes,Yes,6,No,1,1,FL,July,0
+258,Auto,39,22523.02,25000,373.07,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,2,No,0,4,FL,March,0
+3303,Commercial,65,6144.01,25000,430.11,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,1,No,3,2,TX,June,0
+3188,Auto,74,223644.66,250000,2204.51,1,Theft,Theft,Minor,No,Yes,13,Yes,2,0,TX,August,1
+2562,Home,19,14059.18,25000,390.06,0,Theft,Theft,Major,No,Yes,6,Yes,0,0,TX,March,0
+1501,Auto,27,6450.35,50000,602.0,1,Collision,Single Vehicle Collision,Major,Yes,Yes,14,Yes,0,1,IL,December,0
+103,Auto,51,10054.93,25000,352.99,1,Theft,Theft,Major,No,No,1,No,2,0,NY,December,1
+2205,Auto,33,1722.06,10000,260.62,0,Theft,Theft,Major,No,No,8,No,1,0,IL,May,1
+1889,Home,65,1703.62,10000,213.01,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,Yes,3,3,FL,June,0
+2966,Auto,68,6553.04,25000,372.54,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,17,Yes,0,4,FL,January,0
+1924,Home,78,15099.13,250000,2176.67,2,Fire,Fire,Total Loss,Yes,No,13,No,0,0,FL,October,1
+882,Auto,56,12940.84,25000,442.26,0,Fire,Water Damage,Total Loss,Yes,No,16,Yes,0,0,TX,July,1
+342,Auto,39,61341.08,500000,4183.4,0,Theft,Theft,Minor,Yes,No,13,Yes,0,0,CA,April,0
+2874,Home,29,8068.8,50000,577.6,2,Fire,Water Damage,Minor,No,No,0,No,0,0,IL,October,0
+3239,Home,41,3388.26,50000,611.0,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,6,Yes,0,2,CA,November,0
+961,Auto,64,5159.77,50000,609.04,0,Collision,Single Vehicle Collision,Minor,No,Yes,1,Yes,0,1,NY,July,1
+1709,Home,57,12156.46,50000,570.45,1,Collision,Single Vehicle Collision,Major,No,No,5,No,0,1,NY,July,1
+165,Commercial,55,38292.99,100000,1019.71,0,Collision,Multi-Vehicle Collision,Minor,No,No,17,No,0,3,IL,November,0
+1608,Home,77,12859.43,25000,391.07,1,Theft,Theft,Total Loss,No,Yes,0,No,1,0,FL,May,1
+2853,Auto,76,6668.59,50000,570.37,0,Fire,Fire,Minor,Yes,Yes,3,Yes,0,0,NY,August,0
+402,Auto,27,22995.62,250000,2175.23,0,Theft,Theft,Minor,No,Yes,5,No,0,0,CA,August,1
+1305,Commercial,52,36133.07,250000,2247.47,0,Collision,Single Vehicle Collision,Minor,No,Yes,1,No,0,1,CA,May,0
+820,Auto,68,94189.87,250000,2176.73,3,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,1,Yes,0,4,TX,May,1
+1532,Commercial,66,6720.74,50000,613.06,1,Collision,Multi-Vehicle Collision,Major,Yes,No,0,No,3,4,FL,July,1
+1924,Home,49,31874.84,100000,935.88,1,Collision,Multi-Vehicle Collision,Major,No,No,0,No,0,4,TX,June,1
+1420,Commercial,24,22046.3,50000,655.77,1,Theft,Theft,Minor,No,No,4,No,2,0,IL,April,0
+1163,Home,38,4791.35,50000,570.85,0,Collision,Multi-Vehicle Collision,Total Loss,No,No,3,No,0,2,NY,February,0
+1223,Commercial,37,3175.2,25000,420.01,3,Fire,Fire,Major,No,Yes,0,No,2,0,TX,August,0
+405,Auto,43,16088.89,50000,587.42,0,Fire,Fire,Major,No,No,15,No,0,0,TX,March,0
+644,Home,21,11382.49,25000,419.44,2,Collision,Multi-Vehicle Collision,Total Loss,No,No,4,No,0,4,IL,February,0
+3109,Auto,63,20185.11,50000,622.17,0,Collision,Single Vehicle Collision,Minor,No,Yes,3,Yes,2,1,CA,December,0
+2740,Auto,69,11230.88,250000,2192.77,0,Theft,Theft,Major,No,No,1,No,0,0,CA,October,1
+464,Home,39,20221.71,25000,306.7,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,4,Yes,1,1,IL,July,0
+959,Commercial,32,3760.46,10000,334.55,1,Theft,Theft,Major,No,No,2,Yes,0,0,CA,October,0
+474,Commercial,73,1861.59,10000,273.0,2,Collision,Multi-Vehicle Collision,Major,No,Yes,5,No,1,2,IL,June,0
+3451,Home,57,88767.37,250000,2218.4,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,No,3,3,CA,August,0
+1050,Auto,38,37580.08,50000,634.59,0,Collision,Multi-Vehicle Collision,Major,No,Yes,0,Yes,4,2,IL,June,1
+2802,Auto,32,20113.82,50000,577.14,3,Collision,Multi-Vehicle Collision,Major,No,Yes,10,No,0,2,CA,July,0
+1698,Home,39,46748.15,250000,2225.86,0,Fire,Fire,Minor,No,Yes,2,Yes,0,0,TX,February,1
+2090,Auto,69,16104.42,250000,2162.62,2,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,2,No,4,3,TX,October,0
+2282,Auto,45,53318.55,50000,619.38,1,Fire,Fire,Minor,No,Yes,13,Yes,2,0,CA,February,1
+3441,Auto,31,33334.09,100000,1000.99,0,Theft,Theft,Minor,No,Yes,2,No,0,0,IL,June,1
+567,Auto,44,36171.76,100000,978.88,0,Theft,Theft,Major,Yes,Yes,5,No,0,0,TX,September,0
+2490,Auto,78,11617.53,100000,1002.35,0,Collision,Multi-Vehicle Collision,Minor,No,No,4,No,0,2,NY,March,1
+1804,Auto,58,10601.9,25000,347.24,0,Theft,Theft,Minor,No,No,0,Yes,4,0,CA,November,0
+3359,Auto,57,93306.34,250000,2215.45,0,Collision,Multi-Vehicle Collision,Minor,No,No,21,No,0,2,NY,October,0
+2079,Auto,75,9166.69,50000,620.64,0,Collision,Single Vehicle Collision,Minor,No,No,2,No,0,1,NY,August,0
+230,Commercial,45,5708.36,25000,417.28,0,Theft,Theft,Minor,Yes,Yes,2,No,1,0,FL,May,1
+3353,Auto,43,26406.12,50000,675.11,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,11,No,3,3,NY,June,0
+802,Auto,66,2874.44,10000,275.25,2,Fire,Fire,Minor,No,Yes,3,No,2,0,NY,June,0
+2336,Home,19,11262.54,25000,398.69,0,Collision,Multi-Vehicle Collision,Minor,No,No,5,Yes,0,4,FL,November,0
+2931,Auto,42,33048.36,100000,941.49,0,Theft,Theft,Major,No,No,8,Yes,0,0,FL,December,1
+964,Commercial,73,5601.65,10000,358.62,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,1,No,3,1,FL,October,0
+1509,Home,79,15468.26,50000,525.09,1,Theft,Theft,Major,No,Yes,0,No,1,0,IL,November,0
+457,Auto,20,22051.52,50000,611.43,2,Fire,Water Damage,Major,No,No,0,No,1,0,FL,March,0
+3072,Auto,25,2916.18,10000,249.26,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,10,No,1,1,IL,November,0
+820,Commercial,61,156130.86,500000,4203.12,2,Collision,Multi-Vehicle Collision,Major,Yes,Yes,1,Yes,0,3,CA,November,0
+663,Commercial,50,20092.4,25000,334.6,1,Theft,Theft,Major,No,No,1,Yes,1,0,IL,May,0
+3592,Auto,59,3791.57,50000,644.58,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,1,No,0,4,CA,December,1
+551,Home,69,48379.07,50000,552.24,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,1,No,0,2,FL,January,0
+1220,Auto,52,6476.3,25000,458.31,2,Collision,Single Vehicle Collision,Minor,Yes,Yes,4,No,2,1,FL,February,0
+3125,Commercial,23,9800.86,10000,233.62,3,Fire,Fire,Major,No,No,13,Yes,0,0,CA,October,1
+3588,Auto,56,11955.03,100000,1048.76,1,Fire,Fire,Minor,Yes,No,1,Yes,0,0,TX,March,0
+21,Commercial,69,379098.29,500000,4158.45,2,Theft,Theft,Total Loss,Yes,Yes,2,Yes,0,0,IL,April,1
+3248,Home,40,15144.81,25000,369.27,0,Theft,Theft,Minor,Yes,No,6,No,0,0,NY,September,1
+1248,Home,42,32087.0,100000,999.91,2,Theft,Theft,Minor,No,No,2,No,2,0,FL,January,0
+2210,Home,76,24151.54,100000,957.6,0,Collision,Multi-Vehicle Collision,Major,No,No,11,No,1,3,IL,March,1
+2529,Auto,67,181309.47,250000,2156.13,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,3,No,0,4,IL,March,1
+1074,Auto,60,38326.23,50000,558.18,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,0,2,FL,June,0
+3449,Auto,36,15599.01,50000,615.94,3,Fire,Fire,Major,No,Yes,15,No,0,0,CA,May,0
+2570,Auto,22,43231.28,50000,599.98,2,Theft,Theft,Minor,No,No,2,No,0,0,FL,March,1
+2151,Home,68,10748.15,100000,1002.63,2,Collision,Single Vehicle Collision,Major,No,No,1,No,1,1,IL,April,1
+1773,Auto,28,65262.9,250000,2183.77,2,Theft,Theft,Major,No,Yes,0,No,0,0,TX,November,0
+1065,Auto,73,18465.5,25000,427.43,0,Collision,Single Vehicle Collision,Total Loss,Yes,Yes,23,No,1,1,CA,July,1
+2332,Commercial,29,45775.45,50000,652.5,3,Theft,Theft,Minor,No,No,6,Yes,0,0,FL,March,1
+3425,Commercial,27,212014.79,250000,2228.78,3,Collision,Single Vehicle Collision,Minor,No,Yes,2,No,0,1,NY,September,1
+2549,Commercial,25,47817.79,250000,2189.55,1,Collision,Single Vehicle Collision,Major,No,Yes,7,Yes,0,1,FL,August,1
+306,Commercial,41,185505.31,500000,4138.96,0,Theft,Theft,Minor,No,Yes,3,Yes,0,0,IL,February,0
+185,Auto,77,21648.93,100000,901.15,1,Theft,Theft,Major,No,Yes,1,Yes,2,0,IL,May,0
+611,Auto,45,8649.36,50000,596.76,4,Collision,Single Vehicle Collision,Major,No,No,6,No,0,1,NY,April,1
+3175,Home,58,25512.94,50000,500.34,2,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,6,No,0,2,CA,December,0
+704,Home,53,8946.15,100000,990.03,2,Theft,Theft,Major,No,Yes,3,Yes,3,0,IL,May,0
+997,Auto,54,6259.46,10000,350.13,3,Theft,Theft,Minor,No,No,0,Yes,1,0,CA,March,0
+1144,Commercial,38,14126.27,50000,542.33,2,Fire,Fire,Total Loss,No,Yes,0,No,0,0,CA,October,0
+195,Auto,25,42412.28,100000,935.69,1,Collision,Multi-Vehicle Collision,Major,No,Yes,6,No,4,2,FL,November,1
+2305,Auto,72,27403.74,25000,431.85,1,Fire,Water Damage,Major,Yes,No,7,No,0,0,CA,January,1
+985,Home,26,8557.24,100000,859.71,0,Theft,Theft,Minor,No,No,5,No,1,0,IL,August,0
+2980,Home,64,13716.67,50000,619.09,1,Theft,Theft,Total Loss,No,Yes,8,No,0,0,IL,September,0
+2011,Home,32,75191.89,500000,4273.43,1,Theft,Theft,Major,Yes,Yes,5,Yes,1,0,TX,August,0
+1189,Auto,65,2941.41,10000,236.38,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,10,No,0,4,CA,April,0
+3332,Commercial,63,6635.95,25000,347.79,0,Collision,Multi-Vehicle Collision,Minor,No,No,0,Yes,0,4,TX,December,1
+3399,Auto,57,9430.26,100000,1029.5,0,Theft,Theft,Minor,No,Yes,2,Yes,1,0,FL,February,0
+132,Auto,35,16537.14,25000,341.46,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,2,Yes,1,4,TX,April,0
+2070,Commercial,59,52300.43,100000,1040.54,1,Theft,Theft,Total Loss,No,Yes,1,No,1,0,CA,September,1
+1821,Commercial,77,19471.49,100000,945.53,1,Collision,Single Vehicle Collision,Total Loss,No,No,5,No,2,1,IL,October,1
+1763,Commercial,37,22193.23,25000,488.42,0,Collision,Single Vehicle Collision,Major,No,Yes,10,No,0,1,FL,September,0
+2618,Commercial,23,9904.28,50000,633.12,0,Collision,Single Vehicle Collision,Minor,No,Yes,2,No,0,1,CA,May,0
+574,Home,29,13166.27,50000,601.9,0,Theft,Theft,Minor,No,Yes,12,No,1,0,FL,May,0
+1351,Home,19,6532.75,50000,685.54,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,3,Yes,1,1,NY,October,0
+1900,Auto,24,64527.63,250000,2251.58,0,Theft,Theft,Minor,Yes,No,3,Yes,0,0,CA,March,0
+2738,Auto,33,56835.33,250000,2218.43,0,Collision,Multi-Vehicle Collision,Major,No,No,4,No,0,2,NY,June,1
+630,Auto,20,88110.73,100000,906.84,0,Theft,Theft,Total Loss,Yes,No,1,Yes,0,0,TX,July,1
+3364,Auto,62,58030.81,100000,964.93,0,Collision,Multi-Vehicle Collision,Total Loss,No,No,2,No,4,4,CA,December,1
+2906,Home,20,32205.32,50000,654.27,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,Yes,0,3,NY,October,0
+1691,Auto,44,70954.91,250000,2134.99,2,Theft,Theft,Major,No,No,12,No,0,0,IL,December,1
+3014,Auto,67,50780.98,100000,961.71,0,Collision,Single Vehicle Collision,Major,Yes,Yes,4,No,0,1,TX,September,0
+159,Auto,60,70142.6,100000,948.9,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,1,Yes,2,4,CA,July,0
+2542,Home,57,52206.49,250000,2220.12,0,Fire,Fire,Major,Yes,No,0,No,2,0,CA,March,0
+1414,Auto,55,2464.53,25000,448.18,0,Collision,Multi-Vehicle Collision,Minor,No,No,17,Yes,2,4,IL,December,1
+789,Commercial,50,39014.24,250000,2248.23,0,Collision,Single Vehicle Collision,Total Loss,No,No,3,No,2,1,IL,July,1
+3180,Auto,45,1171.9,25000,357.36,0,Collision,Single Vehicle Collision,Major,Yes,No,12,Yes,0,1,NY,January,0
+3469,Auto,18,49055.82,50000,619.43,1,Collision,Single Vehicle Collision,Major,No,No,3,Yes,0,1,NY,February,1
+250,Home,72,21617.5,50000,555.01,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,Yes,1,2,NY,April,0
+3252,Commercial,25,263734.87,500000,4189.47,1,Collision,Single Vehicle Collision,Minor,No,No,5,No,0,1,FL,July,1
+3115,Auto,54,99806.99,250000,2226.01,1,Theft,Theft,Minor,Yes,No,1,No,0,0,TX,September,1
+1505,Home,49,8276.41,100000,1053.07,0,Collision,Single Vehicle Collision,Major,No,No,5,Yes,2,1,CA,May,0
+1710,Home,77,24665.97,100000,892.53,3,Theft,Theft,Total Loss,No,No,3,No,1,0,TX,August,1
+2811,Auto,65,28412.18,50000,604.93,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,Yes,4,3,IL,July,0
+542,Commercial,60,97814.33,250000,2270.36,1,Collision,Multi-Vehicle Collision,Major,Yes,No,8,Yes,4,3,TX,May,0
+1895,Home,54,16640.99,50000,611.61,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,0,No,0,1,TX,March,0
+1846,Home,21,5641.94,50000,604.13,2,Theft,Theft,Minor,No,No,4,Yes,3,0,NY,March,0
+925,Commercial,47,23959.64,25000,371.85,1,Theft,Theft,Major,Yes,Yes,0,No,0,0,IL,June,0
+2460,Commercial,23,33170.16,100000,1069.04,0,Theft,Theft,Major,No,Yes,0,No,1,0,TX,October,0
+529,Home,63,50219.02,100000,974.16,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,Yes,0,3,CA,November,0
+2880,Commercial,71,28485.04,50000,594.99,0,Theft,Theft,Minor,No,Yes,0,No,0,0,NY,April,0
+1534,Home,36,2780.7,10000,256.49,1,Theft,Theft,Minor,No,Yes,4,No,3,0,TX,March,0
+2955,Home,49,160699.9,250000,2205.41,1,Collision,Single Vehicle Collision,Minor,No,Yes,1,No,0,1,IL,April,1
+40,Home,26,1089.19,10000,351.28,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,1,Yes,1,1,CA,March,0
+689,Home,29,51418.41,100000,954.69,0,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,4,IL,December,1
+24,Auto,28,513680.53,500000,4205.63,0,Theft,Theft,Minor,No,Yes,1,No,0,0,IL,October,1
+2373,Commercial,63,52997.15,50000,619.55,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,7,Yes,0,2,IL,November,1
+2564,Commercial,72,8892.99,25000,359.38,0,Theft,Theft,Total Loss,No,No,4,Yes,1,0,FL,November,1
+404,Auto,33,18570.87,100000,997.05,1,Collision,Multi-Vehicle Collision,Major,No,Yes,13,Yes,0,4,CA,December,0
+2706,Commercial,18,45583.32,250000,2292.57,3,Collision,Multi-Vehicle Collision,Major,No,Yes,0,Yes,0,2,IL,June,1
+976,Auto,62,15244.53,50000,511.58,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,7,No,1,3,FL,July,0
+1911,Auto,72,199413.63,500000,4178.94,5,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,5,Yes,0,4,NY,April,1
+2523,Home,70,3672.42,10000,292.53,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,1,Yes,0,2,FL,March,1
+1171,Auto,38,37157.12,50000,581.2,0,Collision,Multi-Vehicle Collision,Major,No,Yes,5,Yes,3,4,NY,March,0
+1120,Commercial,47,47003.38,100000,1144.31,0,Theft,Theft,Total Loss,No,Yes,5,No,0,0,FL,November,1
+3430,Commercial,30,141167.94,250000,2227.43,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,2,No,0,1,IL,March,0
+838,Home,51,12719.84,25000,347.78,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,5,No,1,2,FL,September,0
+1828,Auto,21,52003.22,250000,2083.16,0,Collision,Multi-Vehicle Collision,Minor,No,No,2,Yes,1,3,FL,November,1
+2779,Auto,45,14942.46,50000,617.01,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,1,4,IL,November,0
+1987,Home,55,8118.01,50000,562.22,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,2,Yes,4,3,NY,December,0
+858,Commercial,75,8870.79,25000,464.44,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,10,No,0,1,IL,March,0
+55,Home,48,98451.17,250000,2186.26,1,Collision,Multi-Vehicle Collision,Minor,No,No,2,Yes,4,4,CA,March,1
+579,Auto,76,9794.3,25000,371.58,0,Collision,Single Vehicle Collision,Major,Yes,Yes,2,Yes,3,1,FL,August,0
+3266,Home,72,26180.41,50000,570.74,2,Fire,Water Damage,Total Loss,No,Yes,4,Yes,2,0,CA,April,0
+1153,Home,44,5465.94,25000,449.33,3,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,6,Yes,0,4,IL,July,1
+2202,Home,22,109421.07,250000,2220.78,0,Collision,Single Vehicle Collision,Major,No,Yes,5,Yes,2,1,IL,March,0
+2366,Auto,42,70536.92,100000,1087.8,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,No,0,2,TX,August,0
+2622,Home,20,21900.06,100000,989.24,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,No,1,2,CA,March,0
+3418,Home,50,4269.68,25000,443.11,2,Fire,Fire,Minor,No,Yes,2,Yes,0,0,TX,May,0
+2357,Commercial,21,63491.23,100000,1043.97,1,Collision,Multi-Vehicle Collision,Major,No,Yes,3,No,2,2,CA,January,0
+1720,Auto,42,20530.19,50000,633.69,3,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,No,1,3,TX,December,1
+686,Home,37,75422.72,250000,2174.51,1,Theft,Theft,Minor,Yes,Yes,5,Yes,0,0,TX,May,0
+842,Commercial,51,47941.81,250000,2223.67,0,Collision,Multi-Vehicle Collision,Minor,No,No,7,Yes,2,3,CA,June,1
+1082,Auto,43,3169.8,10000,275.14,1,Fire,Fire,Major,Yes,No,4,Yes,0,0,IL,July,1
+3055,Commercial,79,5452.97,100000,993.82,1,Fire,Fire,Minor,No,No,3,No,1,0,NY,February,0
+2496,Home,79,1164.62,10000,239.71,4,Collision,Multi-Vehicle Collision,Minor,Yes,No,2,No,0,4,IL,February,1
+2665,Auto,22,8946.75,50000,493.98,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,Yes,2,2,NY,September,0
+3045,Auto,52,12016.53,25000,462.42,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,14,Yes,0,3,CA,October,1
+2316,Home,78,48488.65,50000,621.58,1,Collision,Multi-Vehicle Collision,Major,No,No,2,No,0,4,FL,January,1
+3129,Auto,45,22116.0,50000,532.84,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,No,0,3,IL,February,0
+1600,Home,46,6982.76,100000,1035.89,0,Collision,Multi-Vehicle Collision,Major,No,Yes,6,No,1,4,TX,February,0
+3056,Auto,26,52882.15,50000,663.41,2,Fire,Fire,Minor,Yes,Yes,0,Yes,1,0,IL,October,1
+9,Home,69,50218.48,100000,1038.88,0,Collision,Single Vehicle Collision,Minor,No,Yes,8,No,0,1,CA,July,0
+1131,Auto,55,14020.59,50000,555.42,1,Theft,Theft,Minor,No,No,7,No,0,0,FL,June,0
+1224,Commercial,67,5891.39,10000,243.4,2,Theft,Theft,Major,No,Yes,6,Yes,0,0,FL,September,0
+778,Commercial,23,8767.76,100000,972.61,0,Fire,Fire,Major,No,No,0,No,3,0,IL,November,0
+881,Commercial,36,3759.85,25000,443.05,4,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,Yes,1,2,IL,July,1
+996,Home,77,22065.17,50000,623.95,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,0,Yes,0,4,IL,March,1
+2936,Auto,61,15924.74,100000,1139.51,0,Theft,Theft,Minor,No,Yes,3,No,0,0,CA,March,1
+3426,Home,74,14369.76,50000,517.96,0,Theft,Theft,Total Loss,No,Yes,5,Yes,0,0,NY,January,0
+51,Auto,28,3419.2,10000,277.37,3,Fire,Water Damage,Major,No,No,0,No,2,0,NY,August,1
+2919,Auto,19,43548.09,50000,503.61,0,Theft,Theft,Major,No,Yes,5,Yes,0,0,TX,January,1
+2875,Auto,64,41769.71,250000,2229.83,0,Collision,Multi-Vehicle Collision,Major,No,Yes,2,No,1,4,CA,November,0
+2988,Auto,61,17595.91,100000,1053.34,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,7,Yes,0,1,FL,February,0
+2708,Home,61,50585.75,100000,1072.11,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,3,No,0,1,TX,November,1
+273,Home,26,61768.72,100000,1009.43,0,Theft,Theft,Major,No,Yes,1,Yes,0,0,FL,December,1
+374,Auto,38,7331.05,25000,304.33,4,Collision,Single Vehicle Collision,Minor,No,No,1,Yes,2,1,FL,July,1
+640,Auto,41,21173.22,50000,597.49,2,Theft,Theft,Minor,No,Yes,10,No,3,0,IL,January,0
+1134,Commercial,51,25438.73,100000,1021.84,0,Fire,Fire,Minor,No,No,2,No,0,0,FL,December,0
+1698,Auto,39,4195.94,25000,349.74,0,Theft,Theft,Major,No,Yes,2,No,0,0,FL,April,0
+1687,Auto,20,9929.53,25000,386.75,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,0,No,0,1,CA,September,1
+661,Auto,29,23568.6,25000,336.15,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,2,No,1,2,IL,August,0
+124,Home,45,16056.17,50000,569.36,2,Fire,Fire,Minor,No,Yes,8,Yes,1,0,IL,November,0
+835,Home,47,87223.08,500000,4245.62,2,Collision,Multi-Vehicle Collision,Major,No,No,6,No,0,2,TX,August,1
+1815,Auto,43,3694.03,10000,314.01,2,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,0,4,IL,December,0
+1086,Auto,65,8360.26,50000,530.24,0,Collision,Multi-Vehicle Collision,Major,Yes,No,2,No,2,3,NY,March,0
+1979,Home,38,17632.75,25000,364.75,0,Collision,Single Vehicle Collision,Minor,Yes,No,0,No,1,1,CA,May,0
+1374,Home,45,155025.68,500000,4202.85,0,Collision,Multi-Vehicle Collision,Major,No,Yes,13,No,0,2,TX,April,1
+745,Auto,73,9010.64,25000,411.33,0,Fire,Fire,Minor,Yes,No,4,No,1,0,NY,November,0
+3550,Commercial,43,18798.26,50000,566.86,0,Fire,Fire,Minor,No,No,6,No,2,0,FL,December,0
+121,Auto,79,9643.05,100000,1023.82,2,Fire,Fire,Total Loss,Yes,No,5,Yes,0,0,NY,August,1
+1858,Auto,50,34018.73,100000,998.24,2,Collision,Single Vehicle Collision,Minor,No,Yes,9,No,0,1,TX,November,0
+2843,Commercial,38,13914.95,50000,471.17,3,Fire,Fire,Minor,No,Yes,13,Yes,0,0,IL,July,1
+1155,Auto,52,18061.77,50000,571.42,2,Fire,Fire,Minor,No,Yes,0,Yes,1,0,CA,July,0
+3469,Home,69,11036.4,50000,569.99,0,Fire,Fire,Total Loss,Yes,Yes,16,No,1,0,TX,October,1
+1936,Auto,51,8060.35,25000,433.91,1,Theft,Theft,Minor,No,Yes,9,No,3,0,NY,October,0
+1017,Auto,58,22325.06,25000,434.8,0,Theft,Theft,Major,Yes,No,2,Yes,0,0,NY,July,1
+1669,Commercial,68,22671.78,50000,516.39,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,8,Yes,1,4,TX,January,0
+1086,Auto,64,11669.03,25000,421.92,1,Fire,Water Damage,Minor,No,Yes,5,No,0,0,TX,July,0
+638,Commercial,35,11279.07,25000,396.3,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,7,No,0,2,TX,April,0
+517,Auto,75,40252.68,100000,1006.32,1,Collision,Single Vehicle Collision,Minor,Yes,No,1,Yes,1,1,IL,December,0
+2854,Auto,28,59697.75,500000,4169.31,0,Fire,Fire,Major,No,Yes,4,Yes,3,0,TX,March,0
+1124,Auto,74,43081.17,100000,996.91,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,0,No,0,2,FL,December,0
+1146,Home,40,3394.82,10000,337.52,0,Collision,Single Vehicle Collision,Minor,No,No,8,No,3,1,CA,May,0
+564,Auto,65,8392.05,10000,285.61,0,Fire,Water Damage,Major,Yes,No,13,Yes,0,0,CA,February,1
+492,Commercial,39,27325.08,500000,4197.88,0,Fire,Fire,Major,No,Yes,4,Yes,0,0,FL,August,1
+3313,Auto,34,3140.4,25000,376.04,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,3,Yes,0,3,NY,December,0
+901,Commercial,22,2028.16,10000,332.61,2,Fire,Water Damage,Major,No,No,5,No,1,0,NY,December,1
+3348,Auto,61,21610.62,50000,535.96,0,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,0,2,NY,September,1
+1217,Commercial,28,78471.97,100000,959.9,1,Collision,Multi-Vehicle Collision,Minor,No,No,4,Yes,0,4,NY,May,1
+708,Home,47,39907.59,100000,933.09,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,5,No,0,1,IL,March,0
+1475,Home,32,4465.78,25000,410.03,4,Collision,Single Vehicle Collision,Major,No,Yes,0,Yes,1,1,FL,October,1
+585,Commercial,44,1339.59,10000,338.99,0,Collision,Multi-Vehicle Collision,Major,No,Yes,0,Yes,0,4,CA,July,0
+2842,Home,52,91610.87,500000,4183.56,2,Collision,Single Vehicle Collision,Minor,No,No,5,No,0,1,FL,January,0
+2913,Home,50,3541.66,25000,346.53,3,Fire,Fire,Minor,No,No,2,No,2,0,CA,October,1
+2299,Auto,37,24698.97,100000,1081.82,2,Theft,Theft,Minor,No,Yes,9,No,1,0,NY,March,1
+3152,Auto,78,18181.03,100000,1022.56,0,Fire,Fire,Total Loss,Yes,Yes,1,No,0,0,IL,September,0
+158,Commercial,33,22844.36,100000,1013.88,1,Theft,Theft,Major,No,Yes,0,Yes,0,0,TX,February,1
+1684,Home,51,9063.58,50000,590.49,0,Collision,Multi-Vehicle Collision,Minor,No,No,4,No,1,2,TX,November,0
+3511,Home,19,996.54,25000,433.45,0,Fire,Fire,Minor,Yes,Yes,5,No,0,0,NY,September,0
+1001,Auto,52,20438.6,50000,613.09,0,Fire,Fire,Minor,No,Yes,3,Yes,1,0,NY,November,1
+3162,Auto,57,90257.89,250000,2175.94,2,Collision,Multi-Vehicle Collision,Major,No,Yes,5,No,0,2,FL,January,0
+2749,Auto,73,55871.76,250000,2184.31,2,Collision,Multi-Vehicle Collision,Major,No,Yes,3,No,0,3,IL,April,1
+3361,Home,45,10171.92,25000,349.01,0,Theft,Theft,Minor,No,No,5,No,0,0,IL,December,0
+1248,Auto,64,2466.6,25000,342.77,1,Theft,Theft,Total Loss,No,No,0,No,4,0,FL,October,0
+1097,Auto,56,137957.45,250000,2185.17,3,Fire,Fire,Major,No,No,2,No,3,0,IL,June,1
+3123,Auto,23,84649.65,100000,1057.71,0,Collision,Multi-Vehicle Collision,Minor,No,No,1,Yes,3,3,IL,July,0
+1013,Auto,26,63540.18,250000,2148.29,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,0,No,0,3,TX,March,0
+2146,Home,37,4137.82,25000,441.82,0,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,2,4,IL,September,0
+1778,Auto,77,45771.67,50000,560.05,1,Theft,Theft,Total Loss,Yes,No,0,Yes,0,0,NY,April,1
+962,Home,18,8808.59,100000,910.67,0,Collision,Single Vehicle Collision,Minor,Yes,No,16,No,1,1,TX,May,0
+3064,Auto,25,30627.42,100000,1027.33,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,0,3,NY,August,0
+457,Auto,72,51547.68,50000,681.44,0,Collision,Multi-Vehicle Collision,Major,No,No,1,Yes,1,4,NY,December,1
+1232,Auto,40,4843.77,10000,237.21,0,Theft,Theft,Major,No,No,8,No,3,0,FL,March,1
+2964,Auto,20,2581.17,50000,521.51,0,Collision,Single Vehicle Collision,Minor,No,Yes,2,No,0,1,IL,August,0
+2270,Auto,21,7964.17,25000,422.75,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,2,No,0,1,IL,November,1
+2526,Auto,75,8061.92,50000,553.84,0,Theft,Theft,Minor,Yes,No,2,No,0,0,IL,January,0
+2484,Home,42,194866.93,500000,4226.83,0,Fire,Fire,Minor,No,No,2,Yes,0,0,IL,August,1
+2393,Auto,64,9921.42,50000,657.57,2,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,1,No,0,3,TX,November,1
+555,Home,55,74549.37,250000,2216.53,0,Collision,Single Vehicle Collision,Minor,No,Yes,1,Yes,2,1,CA,November,0
+1640,Commercial,32,8535.43,25000,440.49,1,Fire,Water Damage,Minor,No,Yes,9,No,0,0,NY,December,1
+1317,Home,38,102848.01,100000,1040.83,3,Collision,Single Vehicle Collision,Major,No,Yes,0,No,1,1,CA,October,1
+3330,Auto,52,102441.71,500000,4249.5,2,Theft,Theft,Minor,No,No,0,Yes,0,0,CA,August,0
+1762,Auto,74,23752.17,25000,402.26,3,Theft,Theft,Total Loss,No,Yes,3,Yes,0,0,CA,June,1
+361,Auto,70,7343.0,10000,318.95,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,1,Yes,0,4,TX,May,0
+2075,Auto,70,35423.84,50000,608.22,0,Theft,Theft,Major,Yes,No,2,Yes,0,0,CA,September,0
+1790,Commercial,63,3048.87,10000,299.57,3,Theft,Theft,Minor,No,Yes,7,Yes,1,0,TX,June,0
+2574,Auto,69,13574.5,100000,1152.59,2,Collision,Multi-Vehicle Collision,Minor,No,No,10,No,0,2,FL,January,0
+1786,Auto,31,72309.83,250000,2212.08,2,Collision,Single Vehicle Collision,Major,No,Yes,7,No,1,1,FL,December,1
+3176,Home,53,10163.81,50000,525.11,1,Fire,Fire,Major,No,No,1,No,0,0,FL,June,1
+2854,Home,29,4208.41,25000,390.13,1,Collision,Single Vehicle Collision,Major,No,No,17,No,4,1,TX,January,1
+3256,Home,34,12251.12,50000,584.47,0,Theft,Theft,Minor,No,Yes,2,No,2,0,TX,June,0
+3299,Auto,56,13801.11,100000,986.76,1,Fire,Fire,Major,No,No,0,Yes,0,0,NY,March,1
+2814,Auto,26,5333.34,10000,327.67,0,Collision,Multi-Vehicle Collision,Minor,No,No,3,No,0,4,CA,June,0
+2494,Home,52,4332.04,50000,656.53,0,Theft,Theft,Major,No,No,5,No,0,0,IL,June,1
+1636,Auto,77,47181.26,100000,994.72,1,Fire,Fire,Major,No,Yes,0,Yes,1,0,IL,January,0
+2821,Auto,30,10810.46,100000,930.41,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,No,0,2,CA,September,0
+1020,Auto,32,13756.17,25000,404.95,0,Collision,Single Vehicle Collision,Major,No,Yes,8,No,1,1,IL,August,0
+1353,Auto,35,8373.43,100000,972.83,2,Fire,Fire,Minor,No,Yes,1,No,0,0,IL,February,0
+520,Auto,68,1611.88,10000,290.52,2,Collision,Multi-Vehicle Collision,Major,Yes,Yes,5,No,0,4,IL,February,0
+3092,Auto,50,14849.44,25000,393.95,1,Collision,Multi-Vehicle Collision,Major,No,Yes,2,No,0,4,TX,May,0
+2844,Home,23,186916.02,250000,2260.82,1,Fire,Fire,Minor,No,No,2,Yes,0,0,TX,October,1
+340,Home,76,31089.27,100000,1013.74,3,Theft,Theft,Total Loss,Yes,Yes,1,Yes,1,0,TX,February,1
+1787,Commercial,44,3947.41,10000,252.99,0,Fire,Fire,Minor,No,No,4,No,0,0,CA,November,0
+2310,Auto,40,9227.02,25000,330.72,1,Collision,Single Vehicle Collision,Total Loss,Yes,No,2,Yes,2,1,FL,January,0
+501,Auto,76,3506.39,25000,397.6,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,7,Yes,1,2,IL,February,0
+900,Auto,44,6802.72,25000,397.78,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,14,No,0,1,NY,May,0
+2212,Home,51,7971.69,25000,386.88,1,Theft,Theft,Minor,Yes,No,12,No,0,0,TX,November,1
+3551,Home,73,356.64,10000,318.77,1,Theft,Theft,Minor,No,Yes,0,Yes,0,0,NY,October,0
+856,Auto,63,18369.39,50000,530.86,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,0,Yes,1,1,IL,July,0
+1692,Commercial,55,11380.7,100000,961.87,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,2,No,0,4,FL,May,0
+1936,Auto,31,103122.38,100000,1002.65,1,Theft,Theft,Minor,No,Yes,5,No,0,0,NY,January,1
+2742,Home,53,15944.97,100000,972.02,1,Collision,Single Vehicle Collision,Major,Yes,No,16,Yes,0,1,IL,July,1
+2432,Home,70,4435.58,10000,262.16,1,Collision,Single Vehicle Collision,Major,No,No,6,No,0,1,IL,June,1
+1573,Commercial,25,99567.13,500000,4196.99,0,Fire,Fire,Major,Yes,Yes,3,No,4,0,TX,July,0
+961,Home,79,106168.6,250000,2234.3,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,0,No,2,4,FL,February,0
+2743,Commercial,52,99170.06,250000,2194.97,0,Theft,Theft,Major,No,Yes,7,Yes,0,0,IL,May,0
+3503,Auto,36,134014.41,250000,2101.52,0,Fire,Water Damage,Minor,No,No,0,No,1,0,FL,August,0
+1641,Commercial,47,45638.45,250000,2169.86,1,Collision,Multi-Vehicle Collision,Total Loss,Yes,No,0,No,3,3,TX,December,1
+1296,Auto,31,43322.37,50000,624.79,1,Collision,Multi-Vehicle Collision,Major,No,Yes,8,No,0,2,NY,July,1
+1445,Commercial,76,3818.97,25000,438.13,0,Collision,Multi-Vehicle Collision,Major,No,Yes,3,Yes,1,2,CA,June,1
+1196,Home,37,9186.9,100000,1040.89,0,Fire,Fire,Minor,No,No,0,No,0,0,CA,June,1
+1071,Commercial,66,58403.92,100000,1055.06,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,2,No,1,1,CA,December,0
+3632,Auto,42,30514.88,100000,1005.92,0,Theft,Theft,Major,No,No,0,No,1,0,FL,January,0
+289,Home,57,7120.64,50000,613.16,0,Fire,Water Damage,Total Loss,No,Yes,4,Yes,4,0,CA,January,0
+2449,Home,41,1345.74,10000,229.3,0,Fire,Fire,Minor,No,Yes,1,No,0,0,NY,July,0
+16,Home,31,11753.34,50000,491.27,0,Collision,Single Vehicle Collision,Major,No,Yes,9,No,1,1,IL,March,1
+1635,Auto,43,258733.02,250000,2129.12,0,Theft,Theft,Major,Yes,No,1,No,0,0,FL,June,1
+3378,Auto,55,28507.83,50000,564.91,2,Fire,Water Damage,Minor,Yes,No,3,Yes,0,0,NY,December,0
+3329,Auto,40,31938.08,50000,532.01,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,Yes,4,3,FL,May,0
+2551,Auto,39,12502.87,25000,385.35,1,Collision,Single Vehicle Collision,Minor,Yes,No,1,Yes,1,1,FL,March,0
+758,Commercial,65,52355.64,50000,576.9,1,Collision,Single Vehicle Collision,Minor,Yes,No,5,Yes,0,1,FL,June,1
+2087,Auto,74,145424.43,250000,2246.89,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,No,1,3,TX,March,1
+2779,Commercial,36,41977.04,100000,951.54,3,Fire,Fire,Minor,No,Yes,1,Yes,0,0,IL,August,1
+2901,Auto,63,49419.74,100000,1007.03,1,Collision,Multi-Vehicle Collision,Major,No,Yes,3,Yes,0,2,CA,July,0
+94,Auto,68,25036.49,50000,579.01,0,Fire,Fire,Major,No,Yes,7,Yes,1,0,TX,September,1
+780,Home,20,15907.36,100000,949.67,1,Theft,Theft,Minor,Yes,Yes,2,No,0,0,IL,May,0
+2657,Home,59,12566.25,25000,363.61,0,Theft,Theft,Major,No,No,0,No,0,0,CA,December,1
+3022,Auto,36,71569.01,100000,897.44,1,Theft,Theft,Total Loss,No,No,2,No,1,0,TX,January,1
+1630,Home,26,7412.33,50000,637.42,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,4,No,0,2,TX,November,0
+3074,Home,45,7769.57,50000,670.11,2,Fire,Fire,Minor,No,Yes,0,Yes,0,0,NY,October,0
+422,Auto,37,39817.58,100000,986.63,1,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,0,2,TX,November,0
+119,Commercial,62,22791.2,250000,2201.45,0,Collision,Multi-Vehicle Collision,Major,No,No,4,Yes,3,3,FL,August,1
+621,Commercial,24,4703.46,10000,265.21,0,Collision,Single Vehicle Collision,Major,Yes,Yes,13,Yes,2,1,TX,February,0
+3272,Home,31,47824.36,250000,2159.0,0,Fire,Fire,Major,No,No,2,No,0,0,FL,June,1
+830,Auto,26,12071.71,25000,435.25,0,Fire,Water Damage,Minor,No,Yes,0,No,0,0,IL,January,1
+3577,Home,76,18115.13,50000,615.95,0,Collision,Multi-Vehicle Collision,Major,No,No,3,Yes,1,3,IL,June,1
+1654,Auto,77,2358.03,10000,134.39,0,Collision,Single Vehicle Collision,Minor,No,Yes,1,Yes,1,1,FL,April,0
+1521,Auto,72,26333.79,50000,548.27,0,Theft,Theft,Minor,No,Yes,1,No,0,0,NY,May,1
+3151,Auto,74,14240.9,50000,497.35,4,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,No,0,4,NY,October,0
+417,Auto,77,5492.29,10000,357.77,0,Collision,Single Vehicle Collision,Minor,No,Yes,11,No,4,1,IL,July,0
+3452,Commercial,36,14563.97,50000,591.41,0,Theft,Theft,Major,No,No,8,No,0,0,TX,June,0
+3496,Home,64,176690.98,250000,2212.04,0,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,3,IL,January,1
+733,Home,69,4857.93,25000,382.34,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,6,Yes,1,1,IL,September,0
+3353,Auto,31,25680.18,100000,1055.13,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,1,Yes,0,4,FL,June,0
+3073,Auto,73,44459.62,50000,643.04,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,1,Yes,0,1,NY,June,1
+2813,Auto,55,90925.2,100000,989.23,0,Collision,Multi-Vehicle Collision,Major,No,Yes,11,No,3,4,FL,September,1
+680,Commercial,70,3797.16,25000,485.9,1,Collision,Multi-Vehicle Collision,Minor,No,No,10,Yes,0,3,IL,December,0
+3470,Auto,78,3229.09,25000,409.27,2,Collision,Single Vehicle Collision,Total Loss,Yes,No,0,No,0,1,CA,October,1
+1897,Commercial,53,3843.24,25000,326.99,0,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,3,TX,May,0
+2509,Home,57,3848.09,10000,285.0,0,Theft,Theft,Minor,No,No,1,Yes,2,0,IL,November,0
+2972,Auto,34,24002.51,25000,425.87,0,Fire,Fire,Total Loss,No,No,3,Yes,1,0,FL,June,1
+2244,Home,47,34373.81,100000,993.34,1,Collision,Multi-Vehicle Collision,Major,No,Yes,9,No,0,3,CA,June,1
+2791,Auto,26,155098.62,250000,2179.43,0,Fire,Fire,Major,Yes,No,0,Yes,1,0,CA,July,0
+1127,Commercial,50,221092.08,250000,2288.22,1,Collision,Multi-Vehicle Collision,Total Loss,No,No,2,No,0,3,IL,September,1
+1576,Commercial,73,35894.94,100000,940.71,1,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,0,2,NY,May,1
+982,Auto,69,11522.16,25000,261.81,1,Collision,Single Vehicle Collision,Major,Yes,No,0,Yes,1,1,CA,May,1
+1013,Auto,42,9334.74,25000,480.95,0,Collision,Single Vehicle Collision,Major,No,Yes,6,No,0,1,TX,April,0
+2148,Home,31,41661.71,50000,538.7,0,Theft,Theft,Minor,No,Yes,7,Yes,4,0,FL,October,1
+1692,Commercial,28,12269.43,25000,385.67,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,1,3,FL,April,0
+2715,Auto,70,18675.89,50000,581.13,2,Collision,Multi-Vehicle Collision,Major,Yes,Yes,0,Yes,0,4,FL,December,0
+3266,Home,52,7623.7,50000,661.59,4,Fire,Water Damage,Minor,Yes,Yes,0,No,1,0,IL,August,0
+41,Home,58,52816.54,50000,671.74,3,Collision,Single Vehicle Collision,Major,No,No,2,No,0,1,FL,February,1
+3445,Home,76,4796.96,50000,535.38,1,Collision,Single Vehicle Collision,Total Loss,No,Yes,1,No,1,1,FL,October,0
+1553,Auto,31,16973.22,250000,2267.85,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,No,0,4,TX,August,0
+2331,Home,47,29240.61,100000,1066.92,1,Collision,Multi-Vehicle Collision,Minor,No,No,2,Yes,0,2,NY,February,1
+2269,Commercial,58,12045.6,50000,600.97,0,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,1,2,IL,January,0
+2919,Auto,21,57746.3,250000,2246.63,1,Collision,Single Vehicle Collision,Major,No,No,6,No,2,1,IL,October,1
+877,Auto,76,216809.42,500000,4251.64,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,0,No,0,1,FL,September,1
+1826,Commercial,21,18028.36,50000,587.38,0,Collision,Single Vehicle Collision,Major,No,No,7,No,0,1,TX,November,0
+1301,Auto,45,16325.15,50000,592.12,1,Theft,Theft,Minor,Yes,No,3,Yes,0,0,CA,August,0
+2114,Commercial,25,2263.39,50000,629.47,0,Theft,Theft,Major,Yes,Yes,7,No,0,0,FL,June,1
+600,Auto,19,119735.51,250000,2118.57,0,Fire,Water Damage,Major,Yes,Yes,0,No,0,0,FL,April,0
+1908,Auto,58,242211.45,250000,2182.31,0,Fire,Fire,Minor,No,No,6,No,1,0,IL,February,1
+733,Commercial,78,22124.9,25000,339.98,2,Fire,Fire,Major,No,Yes,0,No,0,0,IL,August,1
+1370,Auto,63,1152.35,50000,671.18,1,Theft,Theft,Minor,No,Yes,13,Yes,3,0,FL,March,0
+401,Home,39,32416.34,50000,581.72,1,Theft,Theft,Major,Yes,Yes,5,No,0,0,IL,October,0
+703,Auto,58,11025.4,50000,613.82,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,1,Yes,2,3,TX,April,1
+3095,Home,73,1486.36,25000,389.08,0,Theft,Theft,Minor,No,Yes,1,No,0,0,CA,May,0
+2229,Auto,72,156751.54,250000,2185.83,0,Collision,Single Vehicle Collision,Total Loss,Yes,Yes,8,No,2,1,CA,April,0
+1640,Auto,33,16450.52,100000,1010.55,0,Fire,Fire,Major,No,Yes,10,Yes,0,0,CA,November,0
+400,Commercial,46,136957.71,250000,2163.47,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,9,No,1,2,FL,August,0
+2497,Auto,79,92243.34,250000,2190.08,0,Theft,Theft,Total Loss,Yes,No,7,Yes,0,0,FL,September,1
+3309,Home,66,83480.11,100000,989.71,0,Collision,Single Vehicle Collision,Major,Yes,No,7,No,0,1,FL,January,1
+80,Auto,65,10509.23,50000,578.84,0,Collision,Single Vehicle Collision,Minor,No,Yes,3,No,0,1,TX,February,0
+269,Home,47,43577.96,100000,1019.55,0,Collision,Single Vehicle Collision,Major,No,No,0,No,0,1,CA,December,1
+2507,Auto,29,4846.84,25000,377.65,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,0,No,1,3,IL,April,0
+1824,Commercial,52,10595.5,100000,1080.56,1,Collision,Multi-Vehicle Collision,Major,No,Yes,4,No,0,3,IL,January,0
+722,Auto,28,24309.29,25000,431.45,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,2,Yes,1,2,NY,November,1
+2787,Auto,63,42781.71,100000,932.53,2,Collision,Multi-Vehicle Collision,Major,No,Yes,3,No,0,2,NY,June,1
+3460,Auto,67,7275.49,25000,427.54,1,Collision,Multi-Vehicle Collision,Major,No,Yes,1,Yes,0,4,IL,December,0
+3640,Auto,38,24330.18,25000,365.53,0,Fire,Fire,Major,No,Yes,4,No,2,0,CA,May,1
+855,Home,38,21657.34,25000,406.78,1,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,1,2,FL,July,1
+3582,Auto,22,5748.96,10000,243.44,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,2,No,0,2,IL,December,0
+1395,Commercial,65,14512.9,100000,890.28,0,Fire,Fire,Minor,Yes,Yes,2,Yes,1,0,IL,June,0
+148,Auto,37,36583.2,100000,998.91,1,Collision,Multi-Vehicle Collision,Major,No,No,0,Yes,2,2,NY,March,1
+889,Auto,54,28582.03,50000,528.28,2,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,9,Yes,2,4,CA,May,0
+3145,Home,20,10698.14,25000,420.99,0,Collision,Single Vehicle Collision,Minor,No,Yes,3,Yes,0,1,IL,March,0
+3175,Home,61,7134.6,10000,288.74,1,Theft,Theft,Minor,No,Yes,9,Yes,2,0,FL,September,0
+400,Auto,50,1145.73,10000,249.81,2,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,0,3,FL,February,0
+3101,Auto,70,22399.32,25000,491.28,1,Collision,Single Vehicle Collision,Major,No,Yes,0,Yes,1,1,TX,June,1
+3000,Auto,78,81369.81,250000,2138.04,1,Theft,Theft,Minor,Yes,No,0,No,0,0,FL,September,0
+2943,Home,26,2826.53,25000,368.78,0,Collision,Single Vehicle Collision,Major,No,No,0,No,1,1,IL,October,1
+1497,Home,78,5492.53,50000,543.97,0,Fire,Fire,Total Loss,No,Yes,0,No,1,0,IL,July,0
+3560,Auto,26,15087.11,25000,502.07,1,Collision,Single Vehicle Collision,Major,No,Yes,0,Yes,0,1,FL,May,0
+3641,Commercial,21,17021.28,25000,467.61,1,Collision,Multi-Vehicle Collision,Major,No,Yes,10,No,0,4,NY,February,0
+3227,Commercial,52,19173.62,50000,528.89,3,Theft,Theft,Minor,No,Yes,10,Yes,1,0,CA,February,1
+1172,Home,34,23898.62,100000,958.72,0,Collision,Single Vehicle Collision,Total Loss,No,Yes,12,Yes,0,1,IL,April,0
+2621,Commercial,51,12277.25,25000,360.42,0,Fire,Fire,Minor,No,Yes,14,No,0,0,FL,October,0
+1067,Auto,41,3193.35,10000,252.46,0,Fire,Fire,Minor,No,Yes,3,No,0,0,FL,December,1
+2161,Auto,49,11453.71,50000,547.86,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,Yes,1,2,IL,February,0
+1070,Auto,18,9028.64,25000,369.71,0,Fire,Fire,Major,No,Yes,0,Yes,2,0,TX,December,0
+1214,Auto,25,4895.84,25000,450.24,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,0,Yes,1,2,CA,August,1
+2987,Home,62,84441.8,500000,4297.35,0,Fire,Fire,Minor,No,Yes,6,No,0,0,IL,October,1
+2450,Commercial,40,26592.48,100000,922.78,0,Collision,Single Vehicle Collision,Major,Yes,Yes,8,No,0,1,FL,July,0
+3299,Auto,64,14714.77,50000,547.94,0,Collision,Single Vehicle Collision,Major,No,No,6,Yes,0,1,TX,July,0
+638,Auto,57,2815.13,50000,610.68,4,Collision,Multi-Vehicle Collision,Major,No,Yes,8,Yes,4,2,IL,March,0
+1161,Auto,29,19693.85,50000,520.98,1,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,0,3,CA,July,0
+3239,Commercial,71,6914.63,50000,611.97,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,2,Yes,0,1,TX,August,0
+1243,Auto,29,26682.25,100000,1027.01,2,Fire,Fire,Minor,No,Yes,2,No,1,0,FL,May,0
+737,Home,63,38744.98,100000,1035.03,1,Fire,Fire,Total Loss,No,No,24,Yes,2,0,NY,January,0
+239,Auto,64,26410.55,25000,425.61,2,Collision,Single Vehicle Collision,Minor,No,No,13,No,0,1,CA,January,0
+2710,Auto,32,5554.87,50000,573.24,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,No,0,4,TX,December,0
+755,Commercial,58,11002.2,50000,590.92,0,Fire,Water Damage,Major,No,No,0,No,0,0,IL,November,1
+2640,Commercial,36,232828.86,250000,2141.02,2,Collision,Single Vehicle Collision,Total Loss,Yes,Yes,1,Yes,1,1,IL,April,1
+3085,Auto,43,36982.83,100000,1023.22,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,2,Yes,0,4,TX,February,0
+3150,Commercial,69,22553.03,50000,680.17,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,9,Yes,1,3,IL,July,0
+958,Home,46,8485.65,25000,423.11,2,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,0,4,TX,March,0
+2544,Commercial,39,36998.69,100000,965.25,4,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,2,3,CA,December,1
+2965,Auto,57,289.06,25000,449.74,0,Theft,Theft,Minor,No,No,1,No,0,0,IL,April,0
+3329,Home,38,5596.34,50000,718.28,0,Theft,Theft,Minor,No,Yes,11,Yes,0,0,CA,September,0
+3306,Auto,68,5049.56,25000,412.16,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,No,1,3,FL,February,0
+1547,Home,55,24038.95,100000,1027.72,3,Fire,Fire,Major,No,No,4,Yes,1,0,FL,December,1
+1202,Auto,37,23680.44,25000,433.89,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,2,No,1,4,FL,August,0
+1681,Auto,74,5285.73,50000,519.78,1,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,1,4,FL,January,0
+1196,Auto,46,73272.14,250000,2179.44,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,1,Yes,0,3,IL,March,0
+2222,Home,68,5338.86,25000,374.31,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,7,Yes,0,1,TX,April,0
+1421,Auto,21,12058.5,50000,641.74,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,10,Yes,0,1,IL,June,0
+2998,Home,72,1488.23,50000,635.92,1,Collision,Single Vehicle Collision,Major,Yes,Yes,3,No,3,1,IL,January,0
+2847,Commercial,24,9428.92,10000,273.96,2,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,0,4,CA,August,0
+2686,Auto,45,4605.57,100000,971.31,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,7,No,0,3,TX,February,0
+1222,Home,45,2313.6,10000,195.67,2,Theft,Theft,Minor,No,No,5,No,0,0,NY,May,0
+1545,Auto,21,10082.82,50000,599.23,1,Theft,Theft,Minor,No,No,0,No,2,0,NY,June,0
+2081,Commercial,39,8444.75,50000,552.27,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,No,2,4,TX,August,0
+3241,Auto,29,7701.63,100000,946.07,1,Theft,Theft,Minor,No,No,5,No,3,0,NY,March,0
+1450,Home,62,52572.26,100000,1046.31,0,Fire,Fire,Minor,No,No,3,Yes,0,0,TX,December,0
+2391,Commercial,20,6232.63,25000,441.1,0,Theft,Theft,Minor,Yes,Yes,17,Yes,1,0,CA,September,1
+1524,Commercial,39,1606.97,10000,255.57,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,9,No,0,4,CA,December,1
+1393,Home,61,27800.58,100000,921.55,0,Collision,Single Vehicle Collision,Minor,No,No,0,No,0,1,IL,May,0
+1861,Auto,19,4058.67,50000,558.71,0,Fire,Fire,Total Loss,Yes,Yes,5,No,0,0,NY,August,0
+1370,Home,41,71464.16,250000,2249.66,0,Collision,Single Vehicle Collision,Minor,No,No,1,Yes,0,1,TX,April,1
+504,Commercial,51,25378.97,250000,2223.39,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,Yes,1,4,CA,December,0
+1685,Home,44,6801.98,250000,2176.41,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,4,Yes,3,4,IL,September,0
+515,Auto,72,3947.46,50000,602.94,1,Theft,Theft,Minor,No,Yes,3,Yes,0,0,NY,August,0
+3403,Commercial,58,24617.63,50000,496.26,0,Theft,Theft,Minor,Yes,Yes,8,No,3,0,NY,May,0
+221,Home,18,80619.97,100000,892.47,5,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,5,No,0,4,NY,March,1
+1329,Home,25,3957.8,50000,698.86,0,Collision,Multi-Vehicle Collision,Major,No,Yes,9,No,0,2,CA,January,0
+1160,Auto,40,626.13,25000,425.33,1,Fire,Fire,Minor,Yes,No,1,No,0,0,CA,May,0
+1832,Home,55,57353.53,250000,2200.08,1,Collision,Single Vehicle Collision,Minor,Yes,No,1,No,0,1,NY,May,0
+3146,Auto,23,260120.74,250000,2180.15,1,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,4,Yes,0,2,CA,April,1
+3328,Home,39,1273.8,50000,511.91,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,15,No,1,4,NY,October,0
+3491,Auto,42,5552.79,10000,329.66,1,Theft,Theft,Minor,Yes,Yes,2,No,1,0,FL,October,0
+1815,Home,35,30311.24,50000,543.16,0,Theft,Theft,Minor,No,No,0,Yes,2,0,CA,August,0
+2497,Commercial,34,101257.69,250000,2235.21,0,Fire,Fire,Major,No,Yes,2,No,0,0,TX,March,0
+2928,Auto,78,256046.96,250000,2206.6,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,3,No,1,4,CA,December,1
+1210,Commercial,29,17605.26,25000,397.4,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,7,Yes,1,4,NY,October,0
+2219,Auto,23,2581.84,10000,214.88,1,Collision,Multi-Vehicle Collision,Major,No,No,5,Yes,3,3,TX,September,0
+95,Commercial,43,42382.86,250000,2135.55,2,Fire,Fire,Minor,No,Yes,14,Yes,0,0,IL,March,1
+718,Home,44,4179.9,50000,619.5,0,Collision,Multi-Vehicle Collision,Major,No,No,6,Yes,4,2,TX,April,1
+1886,Home,25,6952.41,50000,603.96,2,Collision,Multi-Vehicle Collision,Total Loss,No,No,1,Yes,1,3,TX,June,0
+3607,Home,36,179191.88,500000,4202.36,0,Theft,Theft,Major,Yes,Yes,4,No,1,0,CA,September,1
+43,Commercial,77,3266.51,10000,294.3,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,No,0,2,TX,October,0
+3202,Auto,59,46718.0,100000,903.16,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,27,No,0,2,TX,February,1
+3527,Auto,18,6504.89,10000,330.76,0,Fire,Fire,Minor,No,Yes,0,No,0,0,NY,February,0
+177,Home,74,2404.29,50000,582.21,0,Collision,Single Vehicle Collision,Minor,No,Yes,0,No,0,1,CA,February,0
+657,Commercial,46,193772.81,250000,2258.48,1,Collision,Single Vehicle Collision,Minor,No,Yes,0,No,0,1,NY,May,0
+758,Home,62,10929.77,50000,499.58,0,Collision,Single Vehicle Collision,Minor,Yes,No,3,No,3,1,CA,June,0
+1248,Home,66,250633.55,500000,4228.45,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,No,0,4,IL,March,1
+1086,Auto,52,1950.93,50000,627.98,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,Yes,0,4,TX,March,0
+1688,Commercial,57,8205.69,50000,525.69,1,Theft,Theft,Minor,Yes,Yes,7,Yes,0,0,CA,February,0
+2528,Auto,31,2750.32,25000,368.04,0,Collision,Multi-Vehicle Collision,Major,No,Yes,2,No,0,3,TX,November,1
+460,Home,52,20181.14,50000,547.02,0,Fire,Fire,Major,No,Yes,3,No,0,0,TX,June,0
+833,Auto,65,29420.26,50000,643.16,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,10,No,0,1,FL,January,0
+899,Auto,62,943.63,10000,295.44,0,Collision,Multi-Vehicle Collision,Major,No,Yes,3,No,0,3,NY,September,1
+1389,Auto,37,11099.01,50000,679.94,2,Collision,Multi-Vehicle Collision,Major,No,No,1,No,1,4,CA,November,1
+1963,Auto,73,20858.14,50000,610.15,2,Theft,Theft,Minor,No,Yes,1,Yes,0,0,IL,October,0
+3077,Home,66,5479.89,100000,1036.61,0,Collision,Multi-Vehicle Collision,Minor,No,No,3,No,2,4,FL,April,0
+2439,Auto,30,54405.0,100000,1058.6,1,Theft,Theft,Major,No,Yes,0,No,3,0,NY,February,1
+2001,Auto,78,7707.17,100000,1027.72,1,Theft,Theft,Minor,No,No,4,Yes,0,0,IL,December,0
+2400,Auto,55,9578.25,10000,260.79,1,Fire,Fire,Minor,Yes,Yes,30,Yes,2,0,IL,June,1
+194,Auto,66,9944.22,25000,371.49,1,Theft,Theft,Total Loss,Yes,No,4,Yes,0,0,TX,May,1
+509,Auto,63,47562.91,100000,996.01,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,2,No,0,2,NY,March,0
+1219,Auto,66,43457.12,50000,639.83,0,Theft,Theft,Major,Yes,Yes,1,Yes,0,0,FL,March,0
+1536,Home,79,136.87,10000,241.69,0,Fire,Fire,Minor,Yes,Yes,12,No,0,0,CA,May,0
+3445,Home,25,247776.4,250000,2232.61,0,Fire,Water Damage,Minor,No,Yes,9,Yes,3,0,CA,April,1
+3485,Home,60,23997.86,100000,1016.13,1,Collision,Single Vehicle Collision,Minor,No,Yes,2,No,0,1,FL,May,0
+828,Auto,37,27450.01,50000,537.33,0,Theft,Theft,Major,Yes,No,1,No,0,0,TX,February,1
+933,Auto,77,1446.13,10000,310.18,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,5,Yes,0,2,TX,November,0
+938,Commercial,50,32094.96,100000,1007.1,0,Collision,Single Vehicle Collision,Minor,Yes,No,1,Yes,0,1,IL,January,0
+1145,Home,43,4081.58,50000,572.47,1,Theft,Theft,Total Loss,No,Yes,0,No,3,0,NY,May,1
+138,Auto,56,5932.74,100000,1006.37,2,Fire,Fire,Minor,Yes,Yes,1,No,0,0,IL,November,0
+2110,Auto,38,10459.4,100000,974.42,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,2,Yes,0,4,CA,January,0
+3632,Auto,70,15539.39,250000,2212.38,0,Fire,Water Damage,Minor,No,Yes,1,No,0,0,FL,March,0
+689,Auto,66,9955.04,50000,591.6,1,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,0,2,NY,August,0
+2724,Auto,79,14223.5,25000,323.5,0,Collision,Single Vehicle Collision,Minor,No,No,0,Yes,0,1,FL,November,0
+2225,Home,59,15238.43,100000,993.1,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,4,Yes,0,1,NY,August,1
+1857,Home,60,70846.89,100000,977.87,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,4,No,0,3,CA,September,0
+819,Home,71,5474.62,100000,1031.78,1,Fire,Fire,Minor,Yes,No,0,No,2,0,CA,January,0
+1177,Home,79,3286.32,25000,443.99,1,Collision,Single Vehicle Collision,Major,Yes,Yes,12,Yes,0,1,NY,April,0
+84,Commercial,58,2537.95,25000,374.55,3,Collision,Multi-Vehicle Collision,Major,Yes,No,2,No,2,2,TX,June,0
+2938,Home,26,57648.83,250000,2160.53,1,Collision,Single Vehicle Collision,Minor,No,Yes,0,No,3,1,NY,July,1
+3289,Commercial,41,18703.13,100000,915.99,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,1,Yes,3,1,CA,May,1
+207,Auto,54,246655.36,250000,2159.3,0,Fire,Fire,Minor,No,Yes,5,No,0,0,FL,July,1
+2816,Auto,66,54264.14,100000,983.84,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,1,Yes,3,4,IL,November,1
+1257,Auto,58,9342.72,50000,533.04,1,Collision,Single Vehicle Collision,Minor,No,No,0,No,1,1,FL,October,0
+1704,Home,34,7045.18,100000,1044.66,1,Theft,Theft,Minor,No,No,4,No,1,0,CA,August,0
+1255,Commercial,41,109091.07,250000,2213.11,4,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,3,No,0,2,FL,October,1
+1687,Auto,38,5755.87,50000,593.98,1,Theft,Theft,Minor,No,Yes,6,No,0,0,TX,June,0
+1560,Commercial,68,46617.14,100000,999.17,2,Collision,Single Vehicle Collision,Total Loss,No,Yes,6,Yes,4,1,TX,November,0
+3517,Auto,76,7216.16,25000,415.3,1,Collision,Multi-Vehicle Collision,Minor,No,No,14,No,0,4,NY,April,1
+3478,Commercial,56,5787.45,50000,631.65,2,Fire,Fire,Minor,No,Yes,0,No,0,0,FL,January,0
+2099,Auto,72,97585.43,100000,1040.45,1,Theft,Theft,Minor,Yes,Yes,0,Yes,0,0,FL,November,0
+1261,Auto,58,15546.6,25000,384.54,1,Collision,Multi-Vehicle Collision,Minor,No,No,19,No,3,2,CA,May,1
+3381,Auto,56,3017.42,25000,392.9,1,Theft,Theft,Minor,Yes,Yes,4,Yes,0,0,NY,October,0
+1554,Auto,30,11198.84,50000,608.65,1,Fire,Water Damage,Minor,No,No,5,No,3,0,NY,October,1
+1171,Auto,28,22387.79,25000,390.86,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,0,Yes,0,3,FL,October,1
+3491,Auto,63,4365.73,25000,443.62,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,0,No,0,3,IL,April,0
+3589,Commercial,36,13658.21,50000,661.37,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,0,Yes,0,4,FL,May,0
+1401,Home,28,74066.6,250000,2217.2,0,Collision,Single Vehicle Collision,Major,Yes,Yes,2,Yes,1,1,FL,April,0
+3642,Auto,30,9865.25,50000,554.59,1,Collision,Multi-Vehicle Collision,Major,No,No,0,Yes,0,4,FL,September,0
+3335,Home,63,6560.4,25000,425.42,0,Fire,Fire,Major,No,No,2,No,0,0,TX,March,1
+2708,Home,62,2840.05,10000,299.18,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,3,No,0,4,NY,March,0
+475,Auto,18,11111.1,100000,950.4,0,Theft,Theft,Minor,No,Yes,0,No,0,0,TX,October,1
+3023,Auto,57,19884.02,50000,619.13,1,Collision,Single Vehicle Collision,Minor,No,No,0,No,1,1,IL,July,0
+1040,Auto,61,220536.41,250000,2172.79,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,2,No,0,2,CA,February,1
+1358,Auto,36,52729.61,100000,1037.3,0,Theft,Theft,Minor,Yes,Yes,0,No,0,0,IL,September,0
+2788,Home,29,27381.27,100000,1025.01,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,No,0,2,NY,August,0
+2836,Auto,25,13198.88,25000,411.15,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,No,1,Yes,0,2,CA,December,1
+972,Home,25,99880.34,100000,1001.93,2,Collision,Single Vehicle Collision,Total Loss,Yes,No,2,No,3,1,IL,June,1
+362,Home,78,4398.33,25000,293.33,0,Theft,Theft,Minor,No,Yes,5,No,0,0,NY,September,0
+3024,Auto,70,19498.68,250000,2139.29,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,Yes,0,3,IL,November,1
+3484,Home,62,25986.06,100000,993.46,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,6,No,0,4,CA,March,1
+672,Auto,29,15951.55,50000,675.97,4,Fire,Fire,Minor,No,Yes,8,No,1,0,CA,April,0
+377,Commercial,78,3163.17,25000,428.23,0,Fire,Water Damage,Minor,No,Yes,4,Yes,0,0,IL,July,0
+1036,Auto,65,4657.47,25000,490.7,0,Collision,Multi-Vehicle Collision,Total Loss,No,No,0,Yes,0,2,TX,January,1
+1150,Commercial,50,29998.91,100000,1004.15,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,2,Yes,1,3,IL,January,0
+1376,Home,62,9604.41,25000,398.46,0,Theft,Theft,Minor,Yes,No,4,Yes,1,0,IL,January,0
+2728,Auto,43,17366.03,50000,671.26,1,Theft,Theft,Minor,No,Yes,17,Yes,0,0,IL,December,0
+94,Home,56,9239.33,25000,392.04,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,13,Yes,0,4,TX,August,1
+2750,Commercial,45,42881.08,100000,950.68,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,2,Yes,0,3,FL,June,0
+3392,Home,75,23887.41,250000,2215.84,2,Theft,Theft,Major,No,No,4,No,1,0,CA,March,1
+3254,Commercial,22,13469.25,100000,1056.13,1,Fire,Fire,Minor,Yes,Yes,9,Yes,3,0,NY,October,0
+544,Commercial,25,95332.49,100000,958.7,0,Theft,Theft,Minor,No,No,7,No,0,0,CA,July,1
+2784,Auto,42,12134.54,25000,429.45,0,Collision,Single Vehicle Collision,Minor,No,No,2,Yes,1,1,CA,June,0
+873,Auto,44,2872.44,10000,275.34,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,1,Yes,0,1,FL,May,0
+45,Home,63,16422.06,100000,1022.57,3,Theft,Theft,Major,Yes,Yes,0,No,2,0,CA,March,1
+744,Auto,40,40051.37,50000,615.68,2,Collision,Multi-Vehicle Collision,Minor,No,No,2,No,1,4,CA,April,0
+1951,Commercial,47,44736.14,50000,579.28,2,Collision,Multi-Vehicle Collision,Minor,No,No,5,No,1,2,TX,November,1
+2554,Commercial,62,1539.53,10000,274.69,3,Collision,Single Vehicle Collision,Major,No,Yes,15,No,0,1,TX,November,0
+3011,Auto,64,11127.96,25000,382.34,1,Collision,Single Vehicle Collision,Minor,No,Yes,8,No,0,1,TX,January,1
+3221,Auto,40,4527.9,10000,285.94,0,Collision,Multi-Vehicle Collision,Major,No,Yes,1,Yes,1,3,TX,September,0
+1229,Home,66,246899.25,250000,2157.7,0,Theft,Theft,Minor,No,No,5,Yes,0,0,TX,May,1
+933,Auto,64,6250.77,25000,369.65,1,Theft,Theft,Minor,No,Yes,1,No,0,0,NY,February,1
+2041,Commercial,37,27605.82,50000,579.3,2,Fire,Fire,Minor,No,Yes,5,No,0,0,FL,December,0
+2513,Auto,35,9224.21,10000,299.59,0,Theft,Theft,Total Loss,No,Yes,4,Yes,0,0,IL,November,0
+2784,Home,35,44131.2,100000,929.22,1,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,1,3,TX,September,0
+2804,Auto,19,21961.28,50000,594.64,3,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,Yes,0,3,FL,December,0
+929,Home,21,224459.78,250000,2164.59,0,Collision,Single Vehicle Collision,Minor,No,No,0,Yes,0,1,IL,July,1
+2961,Auto,47,198828.78,250000,2179.43,2,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,4,CA,August,0
+1586,Home,50,6219.72,50000,566.99,0,Fire,Fire,Major,No,Yes,8,Yes,2,0,CA,March,1
+3623,Auto,53,74199.41,250000,2209.73,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,No,3,4,FL,July,0
+3329,Home,35,174957.81,500000,4192.14,0,Collision,Single Vehicle Collision,Minor,No,Yes,0,No,0,1,NY,November,0
+394,Commercial,54,46914.45,250000,2235.58,1,Collision,Multi-Vehicle Collision,Total Loss,Yes,No,1,Yes,0,3,NY,January,1
+1622,Auto,36,151004.71,250000,2220.09,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,9,No,0,4,FL,June,0
+2935,Auto,64,3451.59,25000,323.15,0,Theft,Theft,Major,No,Yes,1,No,0,0,NY,October,0
+260,Auto,45,29015.0,50000,552.0,2,Collision,Single Vehicle Collision,Minor,No,Yes,0,Yes,1,1,NY,June,0
+713,Home,57,846.73,10000,271.34,1,Collision,Single Vehicle Collision,Minor,Yes,No,5,No,0,1,CA,November,0
+1843,Home,37,2667.58,10000,277.85,1,Collision,Single Vehicle Collision,Major,Yes,Yes,1,No,0,1,NY,October,1
+1949,Home,66,23297.62,500000,4156.41,0,Fire,Fire,Major,No,Yes,1,Yes,0,0,NY,December,0
+2502,Auto,50,40153.14,50000,665.2,2,Collision,Single Vehicle Collision,Major,No,Yes,6,No,3,1,FL,June,1
+14,Auto,29,48154.66,100000,1043.23,0,Collision,Single Vehicle Collision,Minor,Yes,No,1,Yes,2,1,NY,March,0
+2876,Home,75,64438.0,250000,2117.76,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,10,Yes,1,3,TX,June,0
+802,Auto,68,234792.94,250000,2217.27,0,Collision,Multi-Vehicle Collision,Major,Yes,No,3,No,0,2,TX,March,1
+3318,Commercial,32,114332.54,500000,4197.71,0,Collision,Single Vehicle Collision,Total Loss,Yes,Yes,3,Yes,0,1,FL,October,0
+3327,Auto,58,3118.47,25000,462.19,2,Theft,Theft,Minor,Yes,Yes,1,No,2,0,TX,September,1
+881,Home,56,7381.38,10000,201.51,0,Theft,Theft,Major,No,Yes,8,No,0,0,CA,July,0
+1033,Auto,19,40375.63,50000,702.99,0,Theft,Theft,Major,Yes,Yes,3,Yes,1,0,FL,April,1
+3195,Auto,46,16346.89,25000,357.85,2,Collision,Multi-Vehicle Collision,Total Loss,Yes,No,0,No,0,3,NY,March,1
+1020,Home,58,4147.96,10000,298.93,1,Collision,Single Vehicle Collision,Major,No,Yes,1,No,0,1,TX,June,0
+1829,Home,27,18337.06,50000,569.68,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,2,No,0,3,CA,September,0
+378,Commercial,19,83640.68,100000,981.19,0,Collision,Single Vehicle Collision,Total Loss,Yes,No,6,Yes,2,1,FL,March,1
+3141,Auto,68,1650.68,50000,515.53,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,12,Yes,0,1,FL,August,0
+2198,Auto,28,17560.09,50000,659.84,0,Collision,Multi-Vehicle Collision,Major,No,Yes,4,No,1,4,NY,June,0
+228,Home,30,43094.64,100000,986.52,4,Theft,Theft,Major,No,No,3,No,2,0,IL,April,1
+1267,Home,27,8842.82,25000,389.92,1,Theft,Theft,Minor,No,Yes,1,Yes,3,0,TX,May,0
+2229,Auto,31,5189.48,10000,395.62,1,Fire,Fire,Minor,No,No,5,No,0,0,CA,March,0
+1807,Auto,35,18026.64,100000,1047.97,0,Theft,Theft,Minor,No,Yes,18,No,0,0,FL,February,0
+857,Auto,68,29493.36,100000,966.58,0,Collision,Multi-Vehicle Collision,Major,No,Yes,2,Yes,3,4,TX,September,0
+3358,Commercial,71,10375.61,100000,969.49,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,No,0,4,CA,March,0
+67,Auto,26,2994.49,10000,292.99,0,Collision,Single Vehicle Collision,Total Loss,Yes,No,0,Yes,0,1,CA,June,1
+1245,Auto,74,122517.08,250000,2238.54,0,Collision,Multi-Vehicle Collision,Major,No,Yes,1,Yes,0,2,FL,May,0
+2879,Auto,56,30064.12,100000,1087.62,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,3,Yes,0,2,TX,October,0
+2847,Auto,45,12259.74,50000,519.6,0,Collision,Single Vehicle Collision,Minor,Yes,No,13,Yes,0,1,CA,November,0
+693,Auto,20,18494.74,100000,1036.35,1,Collision,Single Vehicle Collision,Minor,No,Yes,1,Yes,1,1,FL,August,1
+1489,Home,37,102143.41,250000,2244.38,0,Theft,Theft,Minor,Yes,No,1,No,1,0,TX,May,0
+1638,Auto,23,7861.5,50000,560.52,0,Theft,Theft,Minor,Yes,Yes,2,No,0,0,TX,November,0
+2157,Commercial,44,27219.56,50000,581.99,1,Collision,Single Vehicle Collision,Major,No,Yes,11,Yes,2,1,FL,August,1
+3175,Auto,70,327928.03,500000,4118.48,1,Collision,Multi-Vehicle Collision,Major,No,Yes,2,No,0,2,TX,November,1
+515,Home,19,81663.11,100000,974.96,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,1,No,0,4,IL,May,0
+389,Commercial,46,9465.93,50000,611.6,0,Theft,Theft,Major,Yes,No,0,Yes,3,0,CA,November,0
+409,Home,55,89210.16,100000,1079.71,1,Collision,Single Vehicle Collision,Minor,Yes,No,2,Yes,0,1,CA,October,1
+2875,Home,20,23682.54,50000,684.32,0,Theft,Theft,Minor,Yes,No,7,Yes,1,0,TX,June,1
+522,Auto,33,22822.46,25000,348.54,0,Collision,Multi-Vehicle Collision,Major,No,No,1,Yes,0,3,FL,May,1
+480,Auto,47,13267.85,50000,672.89,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,3,No,1,1,NY,February,0
+2005,Home,57,26732.21,250000,2102.53,0,Collision,Single Vehicle Collision,Major,No,No,4,No,0,1,TX,October,1
+2761,Commercial,19,187146.48,250000,2170.75,0,Collision,Single Vehicle Collision,Major,Yes,No,2,No,0,1,NY,October,0
+1673,Home,34,21524.8,50000,584.91,2,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,3,TX,June,1
+1898,Home,58,14690.26,50000,612.59,1,Theft,Theft,Minor,No,Yes,11,Yes,0,0,NY,July,0
+2823,Home,79,677.45,25000,405.33,0,Collision,Single Vehicle Collision,Minor,No,No,3,No,0,1,TX,March,0
+1465,Auto,29,174495.74,500000,4218.28,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,5,Yes,2,3,FL,March,1
+3099,Auto,52,15846.95,500000,4190.85,0,Fire,Water Damage,Total Loss,No,No,4,Yes,0,0,NY,December,1
+3049,Home,60,24825.63,100000,1047.98,2,Collision,Single Vehicle Collision,Minor,No,Yes,27,No,2,1,IL,July,0
+3641,Commercial,18,77378.4,250000,2234.59,1,Collision,Single Vehicle Collision,Minor,No,Yes,2,Yes,0,1,FL,November,0
+2729,Auto,72,77686.91,100000,985.52,0,Collision,Single Vehicle Collision,Total Loss,Yes,Yes,2,Yes,0,1,TX,October,0
+718,Home,62,8072.44,50000,642.12,0,Theft,Theft,Major,Yes,Yes,2,No,4,0,NY,April,0
+3534,Auto,32,3303.27,10000,383.42,0,Theft,Theft,Major,Yes,Yes,2,No,3,0,CA,February,1
+87,Home,43,30849.64,50000,566.34,1,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,1,Yes,0,4,FL,September,0
+1173,Auto,54,59949.91,100000,1083.77,1,Fire,Water Damage,Minor,No,Yes,17,Yes,2,0,NY,September,1
+3161,Auto,38,26323.76,100000,970.83,0,Theft,Theft,Minor,No,No,9,No,0,0,FL,June,0
+3154,Home,79,12192.72,50000,670.52,0,Collision,Single Vehicle Collision,Minor,No,Yes,1,No,0,1,NY,February,0
+2509,Auto,66,23812.15,250000,2172.7,0,Theft,Theft,Minor,Yes,No,1,Yes,0,0,CA,March,1
+1906,Home,48,3031.84,25000,438.28,0,Collision,Single Vehicle Collision,Major,Yes,Yes,0,No,4,1,IL,May,0
+2053,Home,42,12870.64,50000,608.98,0,Theft,Theft,Minor,Yes,No,9,No,4,0,CA,November,0
+55,Commercial,40,49540.19,100000,910.74,1,Collision,Single Vehicle Collision,Major,No,No,2,No,0,1,TX,November,1
+689,Auto,41,29184.69,100000,1095.78,1,Theft,Theft,Minor,No,Yes,3,No,1,0,FL,May,0
+721,Auto,74,15686.69,100000,955.23,3,Collision,Single Vehicle Collision,Minor,Yes,No,10,No,2,1,IL,September,1
+1474,Auto,55,3839.48,25000,336.52,3,Fire,Fire,Major,No,Yes,2,Yes,0,0,FL,October,1
+453,Commercial,45,5031.49,25000,368.03,1,Collision,Single Vehicle Collision,Minor,No,Yes,7,Yes,1,1,NY,March,0
+885,Commercial,38,13505.28,100000,1126.56,1,Theft,Theft,Major,No,No,2,No,0,0,TX,February,1
+492,Home,71,5169.78,50000,537.31,3,Collision,Single Vehicle Collision,Total Loss,Yes,Yes,5,No,0,1,TX,October,1
+1828,Commercial,60,3192.09,25000,408.91,0,Fire,Fire,Major,No,Yes,2,No,1,0,FL,August,0
+2086,Home,35,26051.96,100000,943.84,0,Theft,Theft,Minor,Yes,Yes,2,No,0,0,TX,July,1
+3424,Home,53,3914.05,50000,552.41,0,Collision,Single Vehicle Collision,Total Loss,No,No,20,No,0,1,FL,December,1
+2147,Auto,52,4616.59,100000,920.03,1,Fire,Fire,Minor,No,No,4,Yes,0,0,NY,September,0
+3148,Home,62,183674.78,250000,2215.76,1,Collision,Single Vehicle Collision,Major,No,Yes,2,No,1,1,NY,March,1
+1579,Auto,72,5894.07,25000,391.94,0,Theft,Theft,Minor,Yes,No,1,No,0,0,FL,June,1
+2206,Commercial,26,4619.02,10000,223.43,1,Theft,Theft,Minor,Yes,No,0,No,0,0,CA,May,0
+254,Home,70,55807.26,100000,1043.66,1,Collision,Multi-Vehicle Collision,Total Loss,No,No,5,No,1,4,CA,May,1
+678,Home,55,13855.41,100000,1048.94,0,Fire,Fire,Minor,No,Yes,2,No,0,0,NY,October,0
+442,Auto,75,35332.47,100000,1020.36,0,Collision,Multi-Vehicle Collision,Major,No,No,7,Yes,2,2,IL,August,0
+2170,Auto,47,18773.89,250000,2258.53,0,Collision,Single Vehicle Collision,Minor,No,No,2,No,0,1,CA,January,0
+775,Auto,77,31014.22,250000,2182.55,0,Fire,Water Damage,Major,No,Yes,2,No,0,0,FL,January,0
+3382,Auto,61,142071.1,500000,4216.12,2,Theft,Theft,Total Loss,No,No,6,No,0,0,NY,March,0
+272,Auto,51,43925.73,50000,582.74,2,Collision,Single Vehicle Collision,Minor,No,Yes,3,No,0,1,TX,November,1
+1989,Commercial,49,5017.06,50000,524.63,2,Collision,Multi-Vehicle Collision,Major,No,Yes,9,Yes,3,4,TX,February,0
+1082,Home,20,21977.0,50000,610.96,1,Theft,Theft,Major,No,No,3,No,0,0,CA,February,1
+240,Auto,20,13034.72,25000,407.93,1,Collision,Single Vehicle Collision,Total Loss,Yes,No,1,No,1,1,IL,February,1
+393,Auto,45,48343.81,50000,598.49,1,Fire,Fire,Minor,No,Yes,3,Yes,0,0,CA,April,1
+3042,Auto,61,2551.71,25000,418.69,1,Theft,Theft,Major,No,Yes,0,No,1,0,IL,January,1
+767,Home,32,13504.84,250000,2270.6,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,1,No,3,3,CA,October,0
+1853,Home,58,43802.55,50000,589.78,1,Collision,Multi-Vehicle Collision,Minor,No,No,1,Yes,0,2,TX,September,1
+2453,Commercial,40,2920.29,50000,552.14,0,Collision,Multi-Vehicle Collision,Minor,No,No,4,Yes,0,2,IL,May,0
+628,Auto,57,2275.79,50000,587.61,1,Collision,Single Vehicle Collision,Major,No,No,0,No,3,1,TX,May,0
+2819,Commercial,28,8392.12,10000,273.16,0,Theft,Theft,Total Loss,No,No,1,Yes,1,0,FL,September,0
+3379,Commercial,65,1845.03,10000,329.18,1,Fire,Fire,Minor,Yes,Yes,1,No,0,0,FL,May,0
+2971,Auto,49,10222.93,50000,605.33,0,Collision,Multi-Vehicle Collision,Major,No,No,0,No,0,4,NY,November,1
+3283,Commercial,75,1563.98,10000,222.59,0,Collision,Single Vehicle Collision,Major,Yes,Yes,0,Yes,0,1,TX,August,0
+1257,Auto,76,65823.64,100000,1040.27,4,Collision,Single Vehicle Collision,Minor,No,No,1,Yes,2,1,TX,November,1
+2905,Commercial,74,161403.12,250000,2232.26,0,Theft,Theft,Total Loss,No,Yes,1,No,1,0,NY,January,1
+582,Auto,71,107416.24,250000,2205.36,0,Theft,Theft,Minor,No,Yes,0,No,3,0,FL,January,1
+2127,Commercial,53,44388.84,100000,1047.41,0,Theft,Theft,Minor,No,No,0,Yes,0,0,FL,April,0
+439,Commercial,77,9461.91,25000,455.78,2,Collision,Single Vehicle Collision,Minor,Yes,No,8,No,0,1,IL,August,0
+2155,Commercial,50,41233.23,250000,2181.13,1,Fire,Fire,Total Loss,Yes,No,5,No,0,0,IL,March,1
+3498,Home,41,34976.11,250000,2154.99,1,Collision,Multi-Vehicle Collision,Total Loss,Yes,No,2,Yes,0,2,FL,January,0
+768,Auto,56,8011.98,25000,399.41,2,Theft,Theft,Minor,No,Yes,10,Yes,0,0,CA,November,0
+2790,Auto,51,8698.95,100000,1026.83,0,Theft,Theft,Minor,No,No,0,No,0,0,TX,December,0
+2858,Auto,73,24729.01,25000,394.73,0,Theft,Theft,Minor,No,Yes,1,Yes,2,0,IL,September,1
+1334,Auto,45,242518.94,250000,2150.58,0,Collision,Multi-Vehicle Collision,Major,No,Yes,7,No,0,2,CA,September,1
+2150,Home,54,39590.38,500000,4208.13,1,Theft,Theft,Major,No,Yes,4,Yes,0,0,IL,September,1
+2850,Auto,24,8229.73,10000,178.32,1,Collision,Multi-Vehicle Collision,Total Loss,Yes,No,17,Yes,3,4,NY,September,1
+1363,Commercial,21,63176.67,250000,2183.78,0,Theft,Theft,Major,No,No,12,Yes,4,0,TX,February,1
+2911,Home,54,12783.5,100000,1042.56,0,Collision,Single Vehicle Collision,Total Loss,Yes,No,0,Yes,0,1,IL,November,1
+2487,Commercial,73,452406.32,500000,4245.27,0,Collision,Multi-Vehicle Collision,Major,No,Yes,16,Yes,3,2,FL,November,1
+451,Auto,18,6552.1,50000,412.01,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,13,Yes,0,3,NY,November,0
+2022,Commercial,18,265882.4,250000,2190.37,0,Theft,Theft,Major,No,Yes,2,Yes,0,0,NY,April,1
+1336,Commercial,64,1563.57,10000,309.96,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,18,Yes,2,4,FL,February,1
+253,Auto,37,37151.23,50000,541.2,0,Theft,Theft,Minor,Yes,Yes,0,No,1,0,NY,July,1
+170,Home,36,3331.96,10000,261.4,1,Theft,Theft,Minor,No,No,4,No,2,0,TX,November,0
+3557,Home,46,226319.84,500000,4260.39,1,Theft,Theft,Major,Yes,No,1,No,2,0,IL,March,0
+3036,Auto,27,56291.33,250000,2175.79,0,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,3,NY,September,0
+1363,Home,77,117617.25,250000,2279.93,1,Theft,Theft,Major,No,Yes,3,No,0,0,TX,July,0
+1024,Auto,35,31007.84,250000,2162.94,1,Collision,Multi-Vehicle Collision,Minor,No,No,1,Yes,0,3,FL,August,0
+546,Auto,45,4443.16,10000,350.49,4,Collision,Single Vehicle Collision,Major,No,No,4,Yes,0,1,IL,September,1
+763,Auto,52,10047.35,50000,601.68,0,Collision,Single Vehicle Collision,Minor,No,No,3,Yes,0,1,FL,August,1
+3182,Auto,60,1875.26,10000,236.08,1,Collision,Single Vehicle Collision,Major,Yes,Yes,2,No,0,1,IL,July,0
+3639,Auto,64,6289.52,25000,470.66,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,No,2,3,NY,September,0
+2133,Auto,48,9818.98,25000,339.68,0,Collision,Multi-Vehicle Collision,Major,No,No,4,No,2,3,NY,November,1
+2185,Commercial,44,4495.95,50000,560.2,1,Collision,Multi-Vehicle Collision,Major,No,Yes,7,Yes,1,2,IL,January,0
+801,Home,79,2888.06,25000,424.5,0,Collision,Multi-Vehicle Collision,Major,No,No,4,No,0,2,TX,November,0
+2952,Commercial,28,6613.15,25000,404.04,0,Collision,Multi-Vehicle Collision,Major,No,Yes,4,Yes,1,4,TX,April,0
+142,Auto,66,9302.89,25000,413.7,0,Collision,Multi-Vehicle Collision,Major,No,Yes,3,No,1,4,TX,April,0
+2236,Auto,66,8675.54,25000,381.58,0,Fire,Fire,Minor,No,No,2,No,4,0,CA,May,0
+3477,Home,55,93563.61,500000,4140.03,0,Collision,Multi-Vehicle Collision,Major,No,Yes,2,Yes,0,3,TX,August,0
+1358,Auto,22,37326.14,100000,967.39,0,Collision,Multi-Vehicle Collision,Minor,No,No,20,Yes,0,3,NY,October,0
+2837,Auto,25,192700.48,500000,4266.02,1,Collision,Single Vehicle Collision,Minor,No,Yes,6,No,3,1,CA,January,0
+3584,Home,51,43487.93,50000,533.15,1,Collision,Multi-Vehicle Collision,Minor,No,No,2,No,3,4,TX,June,1
+1880,Auto,65,23830.29,25000,482.22,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,2,Yes,0,4,NY,September,1
+3036,Home,69,21003.4,100000,1015.79,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,No,0,4,CA,October,0
+73,Home,73,19521.24,50000,570.16,2,Fire,Water Damage,Minor,No,Yes,4,No,2,0,NY,August,0
+2598,Auto,29,2288.13,25000,299.9,0,Theft,Theft,Total Loss,Yes,No,2,Yes,0,0,IL,February,1
+2105,Auto,55,4340.25,25000,306.47,0,Theft,Theft,Major,Yes,No,5,Yes,1,0,NY,July,0
+1478,Home,18,9062.94,25000,382.21,1,Fire,Fire,Minor,No,Yes,1,No,0,0,CA,May,0
+209,Auto,48,9093.88,25000,376.15,1,Fire,Fire,Total Loss,Yes,Yes,2,No,0,0,TX,February,0
+2178,Auto,21,9563.59,50000,605.89,0,Theft,Theft,Minor,No,No,8,Yes,0,0,CA,November,0
+47,Commercial,66,12169.41,100000,1085.96,0,Theft,Theft,Major,No,No,1,Yes,0,0,TX,January,1
+1911,Auto,62,2936.82,10000,306.88,1,Collision,Multi-Vehicle Collision,Major,No,No,14,Yes,0,4,TX,February,1
+2163,Home,67,8739.23,25000,393.57,5,Collision,Multi-Vehicle Collision,Major,No,No,0,No,0,3,FL,November,1
+765,Commercial,22,46333.6,250000,2260.84,0,Collision,Single Vehicle Collision,Major,No,Yes,1,Yes,0,1,IL,October,1
+3259,Auto,47,4488.19,25000,407.53,4,Collision,Multi-Vehicle Collision,Minor,No,Yes,2,No,0,4,FL,June,0
+2900,Auto,73,37738.38,50000,679.99,0,Fire,Fire,Minor,No,Yes,7,No,0,0,CA,November,0
+2147,Auto,41,117126.67,250000,2166.4,0,Collision,Multi-Vehicle Collision,Major,Yes,No,5,No,0,2,FL,December,1
+1999,Auto,76,9467.87,25000,342.61,0,Theft,Theft,Minor,No,Yes,0,No,3,0,TX,August,0
+3450,Auto,20,1814.39,10000,179.98,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,1,No,0,3,CA,March,0
+1940,Home,28,9035.44,50000,594.73,0,Collision,Single Vehicle Collision,Minor,Yes,No,3,No,0,1,FL,May,0
+3596,Auto,62,9078.91,50000,538.27,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,1,No,0,2,NY,November,0
+904,Home,21,8961.63,50000,537.56,2,Collision,Multi-Vehicle Collision,Major,No,No,2,No,2,4,IL,February,1
+364,Commercial,43,26756.32,250000,2251.72,5,Collision,Multi-Vehicle Collision,Minor,Yes,No,2,Yes,0,2,NY,December,1
+2952,Commercial,44,21546.06,25000,313.89,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,4,Yes,0,4,CA,August,1
+1724,Home,63,13256.64,50000,605.18,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,1,No,0,1,FL,April,0
+285,Auto,71,45738.47,50000,595.84,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,0,No,1,2,TX,November,1
+3271,Home,60,22256.21,25000,404.61,1,Theft,Theft,Minor,No,No,2,No,1,0,FL,October,1
+1892,Home,44,90209.06,100000,1069.21,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,No,0,3,CA,December,1
+3271,Auto,59,27154.42,25000,358.72,3,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,No,0,2,CA,June,1
+671,Auto,68,3408.56,50000,669.25,0,Collision,Single Vehicle Collision,Minor,No,No,8,No,0,1,CA,March,0
+97,Commercial,67,7524.48,10000,191.99,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,0,Yes,0,3,CA,November,0
+676,Auto,23,26996.21,50000,632.54,0,Collision,Multi-Vehicle Collision,Major,No,No,0,No,1,2,FL,August,1
+1974,Auto,76,12923.38,50000,673.82,1,Collision,Multi-Vehicle Collision,Total Loss,No,No,0,No,0,2,NY,August,0
+65,Auto,78,104632.51,250000,1997.3,0,Collision,Single Vehicle Collision,Minor,No,Yes,8,No,0,1,TX,March,0
+2686,Auto,32,550.14,10000,278.23,1,Fire,Fire,Major,No,Yes,0,No,0,0,TX,December,0
+3127,Commercial,70,15739.72,50000,594.16,3,Collision,Single Vehicle Collision,Total Loss,No,Yes,18,No,1,1,IL,September,1
+3479,Home,47,4496.5,50000,603.59,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,1,No,1,3,CA,October,0
+1033,Home,59,68929.24,100000,1085.58,1,Collision,Multi-Vehicle Collision,Minor,No,No,1,Yes,3,3,CA,May,0
+1494,Auto,54,4094.11,50000,561.82,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,0,Yes,0,4,CA,October,1
+608,Auto,75,8482.88,100000,940.77,2,Collision,Multi-Vehicle Collision,Major,No,Yes,3,No,0,3,NY,September,0
+686,Auto,78,21946.17,100000,1003.96,4,Theft,Theft,Minor,No,No,3,Yes,0,0,CA,July,1
+2586,Auto,54,7773.09,250000,2256.22,1,Theft,Theft,Minor,No,Yes,3,No,0,0,IL,October,0
+1433,Auto,59,11362.85,50000,627.93,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,1,Yes,0,3,IL,March,0
+2890,Home,77,10104.64,50000,601.72,3,Fire,Fire,Minor,No,No,2,Yes,0,0,NY,June,1
+3589,Auto,54,117118.56,250000,2188.54,0,Collision,Single Vehicle Collision,Major,No,Yes,1,Yes,0,1,CA,October,1
+2697,Home,52,193204.12,500000,4099.65,0,Theft,Theft,Major,Yes,No,2,Yes,3,0,FL,February,1
+2285,Auto,40,42549.29,250000,2229.29,1,Theft,Theft,Major,No,No,1,Yes,1,0,FL,June,1
+528,Auto,23,8141.46,50000,635.27,0,Theft,Theft,Minor,No,No,5,No,0,0,TX,December,0
+2398,Auto,21,1035.19,25000,365.38,2,Collision,Multi-Vehicle Collision,Minor,No,No,1,Yes,0,4,NY,May,0
+3122,Commercial,35,17724.87,50000,576.76,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,1,No,0,3,FL,March,0
+2598,Commercial,77,29431.31,100000,947.59,0,Collision,Multi-Vehicle Collision,Major,Yes,No,2,No,0,3,TX,July,0
+1973,Commercial,26,3200.57,50000,643.41,0,Collision,Multi-Vehicle Collision,Major,Yes,No,0,No,0,2,IL,November,0
+1106,Auto,66,6689.14,50000,581.71,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,No,0,4,TX,April,1
+1758,Auto,46,127770.51,250000,2192.53,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,1,No,3,1,CA,November,0
+1841,Home,30,16492.35,50000,631.46,0,Collision,Multi-Vehicle Collision,Major,No,No,0,Yes,0,4,CA,June,1
+3149,Auto,76,107123.93,250000,2216.35,0,Theft,Theft,Major,Yes,Yes,10,Yes,0,0,IL,September,0
+2846,Commercial,64,16727.61,50000,628.16,1,Collision,Multi-Vehicle Collision,Minor,No,No,1,No,2,2,NY,December,0
+2301,Auto,79,5850.06,50000,608.74,2,Theft,Theft,Minor,No,No,2,Yes,0,0,CA,June,0
+2099,Auto,69,4800.54,50000,609.86,3,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,7,No,0,4,CA,April,0
+1149,Auto,34,18433.83,100000,1009.38,4,Fire,Fire,Major,No,Yes,0,No,0,0,TX,October,1
+2266,Auto,62,1894.18,25000,422.65,1,Collision,Multi-Vehicle Collision,Major,No,Yes,8,No,1,2,TX,February,0
+2291,Home,49,12287.96,25000,425.08,0,Collision,Single Vehicle Collision,Major,No,Yes,1,Yes,0,1,TX,September,0
+1084,Auto,65,76752.78,500000,4138.76,2,Fire,Fire,Total Loss,Yes,Yes,3,No,0,0,FL,April,1
+2402,Auto,39,4322.42,25000,370.14,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,No,5,No,3,3,IL,April,1
+111,Auto,21,19512.17,50000,589.83,1,Collision,Single Vehicle Collision,Minor,No,No,10,No,0,1,NY,February,0
+2883,Auto,22,10804.05,50000,622.59,1,Collision,Multi-Vehicle Collision,Minor,Yes,No,4,No,1,4,TX,May,0
+52,Home,54,20727.33,50000,679.87,2,Collision,Multi-Vehicle Collision,Minor,Yes,No,2,Yes,2,3,NY,June,0
+3649,Commercial,58,13011.65,100000,959.34,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,Yes,0,4,TX,October,0
+341,Commercial,66,4775.33,25000,443.93,0,Collision,Multi-Vehicle Collision,Major,No,No,1,Yes,2,3,CA,June,1
+1054,Home,30,54571.57,50000,571.55,1,Fire,Fire,Total Loss,Yes,Yes,5,Yes,1,0,NY,March,1
+2856,Auto,51,22216.37,50000,668.53,0,Theft,Theft,Major,No,Yes,0,Yes,3,0,FL,December,0
+1285,Home,62,34095.78,100000,1095.62,3,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,Yes,0,4,TX,September,0
+2060,Auto,39,2619.92,25000,312.6,1,Theft,Theft,Minor,No,Yes,4,No,3,0,IL,July,0
+629,Auto,70,5859.49,50000,583.68,1,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,10,No,0,4,CA,March,0
+1895,Commercial,76,11095.27,25000,282.49,2,Collision,Multi-Vehicle Collision,Major,No,Yes,2,Yes,1,3,TX,April,0
+1281,Auto,40,3698.56,25000,315.51,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,6,No,0,2,NY,July,0
+1720,Commercial,68,6341.63,25000,318.62,0,Theft,Theft,Minor,No,No,0,No,0,0,TX,November,0
+2771,Auto,20,15542.8,25000,431.2,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,No,0,4,CA,August,0
+307,Home,59,166147.85,250000,2221.85,1,Theft,Theft,Total Loss,No,No,3,No,0,0,IL,June,0
+643,Home,51,14699.21,25000,440.06,2,Collision,Single Vehicle Collision,Major,Yes,Yes,4,Yes,0,1,IL,April,0
+60,Commercial,49,62188.22,250000,2230.4,1,Fire,Fire,Total Loss,No,Yes,4,Yes,0,0,IL,December,0
+730,Home,62,183458.81,500000,4224.25,3,Theft,Theft,Major,Yes,Yes,6,Yes,0,0,CA,February,0
+530,Home,68,18221.14,50000,605.59,0,Collision,Single Vehicle Collision,Major,No,Yes,1,Yes,0,1,TX,October,0
+478,Auto,75,4050.03,25000,393.46,0,Theft,Theft,Minor,Yes,No,4,No,0,0,CA,August,0
+32,Home,66,14317.99,50000,650.98,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,0,No,0,2,CA,January,0
+2130,Auto,38,19587.63,100000,1000.61,1,Collision,Multi-Vehicle Collision,Major,No,Yes,1,Yes,2,2,TX,September,0
+3292,Home,63,12662.4,50000,626.26,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,0,No,1,2,FL,August,0
+3462,Home,61,1323.96,10000,163.49,0,Collision,Multi-Vehicle Collision,Minor,No,Yes,6,No,0,2,IL,March,1
+369,Home,38,4365.73,50000,541.25,1,Theft,Theft,Minor,No,No,3,Yes,0,0,NY,October,0
+2718,Auto,61,97284.0,250000,2249.01,0,Collision,Multi-Vehicle Collision,Major,No,Yes,1,No,1,2,NY,April,1
+530,Auto,28,21786.63,100000,966.58,1,Collision,Single Vehicle Collision,Minor,No,Yes,3,Yes,0,1,TX,October,0
+2751,Home,56,4884.2,25000,330.23,0,Collision,Single Vehicle Collision,Major,Yes,Yes,1,No,0,1,NY,April,0
+1340,Auto,21,33679.02,100000,1032.06,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,8,Yes,0,2,FL,February,1
+887,Auto,68,6638.39,25000,400.07,0,Collision,Single Vehicle Collision,Minor,No,Yes,3,Yes,3,1,CA,December,0
+1035,Auto,18,5556.33,25000,379.65,2,Theft,Theft,Minor,No,Yes,0,No,0,0,IL,November,0
+1031,Commercial,45,37322.74,250000,2275.46,0,Fire,Fire,Major,No,Yes,18,No,1,0,NY,October,0
+1651,Home,41,21296.31,25000,466.87,0,Collision,Single Vehicle Collision,Major,No,No,0,Yes,0,1,NY,May,1
+923,Auto,78,8662.26,25000,390.61,0,Collision,Single Vehicle Collision,Minor,No,No,5,No,1,1,TX,December,0
+2802,Auto,52,2983.11,10000,316.12,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,2,No,0,4,TX,March,0
+2415,Auto,30,219640.85,250000,2088.06,2,Theft,Theft,Minor,No,Yes,1,Yes,0,0,CA,December,1
+1779,Home,64,82103.69,100000,1054.67,0,Collision,Single Vehicle Collision,Minor,Yes,Yes,5,No,0,1,IL,November,0
+1536,Home,51,19119.08,100000,945.67,2,Collision,Multi-Vehicle Collision,Major,No,No,0,No,3,2,NY,January,1
+3350,Auto,28,23357.8,100000,927.39,0,Theft,Theft,Minor,No,Yes,8,Yes,0,0,CA,February,0
+3582,Auto,53,6847.13,25000,310.74,2,Collision,Multi-Vehicle Collision,Major,No,No,1,No,0,4,IL,November,0
+2858,Auto,68,8402.77,50000,506.87,1,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,2,No,1,4,CA,December,0
+2791,Home,78,22577.34,50000,654.02,1,Theft,Theft,Major,No,Yes,4,No,0,0,NY,July,1
+1911,Home,34,2744.62,10000,311.56,1,Collision,Multi-Vehicle Collision,Major,Yes,No,0,No,0,4,TX,January,1
+3091,Auto,52,2570.9,50000,561.71,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,2,Yes,0,3,TX,December,0
+1220,Auto,77,8046.7,250000,2242.74,1,Collision,Multi-Vehicle Collision,Minor,No,Yes,10,Yes,0,2,TX,February,0
+1659,Auto,35,2246.51,10000,250.25,0,Collision,Single Vehicle Collision,Minor,No,Yes,5,No,0,1,FL,October,1
+489,Commercial,57,123.01,25000,416.18,0,Collision,Single Vehicle Collision,Minor,No,Yes,2,No,2,1,CA,July,1
+2080,Auto,39,6432.82,25000,375.88,1,Fire,Fire,Total Loss,No,No,4,Yes,0,0,NY,January,1
+718,Home,74,1353.11,25000,394.0,0,Collision,Multi-Vehicle Collision,Minor,Yes,No,12,Yes,2,3,CA,July,0
+1067,Home,41,8330.83,250000,2154.59,2,Theft,Theft,Minor,No,Yes,0,No,0,0,TX,August,0
+1981,Auto,75,26828.15,50000,562.01,0,Collision,Multi-Vehicle Collision,Total Loss,Yes,Yes,3,Yes,0,2,CA,November,0
+1301,Auto,36,11124.53,50000,627.2,1,Collision,Single Vehicle Collision,Major,No,Yes,1,Yes,0,1,IL,February,0
+1259,Auto,54,5996.58,100000,1035.24,3,Collision,Multi-Vehicle Collision,Total Loss,No,No,8,No,1,3,CA,April,1
+2138,Home,56,1287.3,25000,379.29,1,Collision,Single Vehicle Collision,Major,Yes,Yes,5,No,0,1,FL,July,0
+3550,Home,38,48572.99,50000,523.72,1,Collision,Single Vehicle Collision,Minor,No,Yes,7,No,1,1,FL,January,1
+130,Home,25,7614.52,50000,723.56,1,Collision,Multi-Vehicle Collision,Major,No,Yes,12,No,1,4,TX,June,0
+2864,Home,45,2404.29,50000,601.83,2,Collision,Single Vehicle Collision,Minor,Yes,Yes,1,Yes,0,1,NY,May,0
+541,Auto,22,34906.34,500000,4215.61,0,Collision,Multi-Vehicle Collision,Minor,No,No,0,No,0,3,IL,November,0
+2197,Commercial,34,106601.3,100000,936.93,1,Fire,Fire,Major,No,No,1,Yes,0,0,NY,June,1
+3601,Home,54,3621.88,50000,660.76,0,Collision,Multi-Vehicle Collision,Major,No,Yes,2,No,1,4,NY,August,0
+3288,Auto,53,38835.26,250000,2268.39,0,Collision,Multi-Vehicle Collision,Total Loss,No,No,4,No,0,3,IL,November,1
+2077,Commercial,71,6776.37,25000,314.6,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,7,No,1,2,FL,November,0
+1608,Home,36,8739.21,10000,274.88,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,1,No,0,2,TX,January,0
+3470,Home,44,20348.56,25000,390.98,1,Theft,Theft,Minor,No,Yes,2,Yes,1,0,CA,March,0
+71,Home,70,8923.59,50000,719.42,2,Collision,Single Vehicle Collision,Major,No,Yes,6,No,0,1,FL,November,1
+237,Commercial,51,41249.77,50000,672.18,1,Collision,Multi-Vehicle Collision,Major,No,No,1,Yes,0,3,TX,September,1
+2161,Home,28,27653.47,100000,927.46,1,Collision,Single Vehicle Collision,Total Loss,No,No,1,Yes,3,1,FL,December,1
+1174,Auto,71,192743.17,250000,2163.6,0,Theft,Theft,Minor,No,Yes,3,Yes,1,0,IL,August,0
+2163,Auto,62,45400.39,50000,555.35,0,Collision,Single Vehicle Collision,Minor,No,Yes,2,No,0,1,NY,April,0
+2280,Commercial,64,15967.95,50000,618.58,0,Collision,Multi-Vehicle Collision,Total Loss,No,Yes,13,No,1,3,IL,November,0
+115,Auto,29,2730.14,10000,358.61,1,Collision,Multi-Vehicle Collision,Minor,No,No,1,Yes,1,2,CA,October,0
+1498,Auto,71,1000.65,10000,285.46,0,Collision,Single Vehicle Collision,Major,Yes,No,6,Yes,0,1,IL,September,1
+2086,Auto,38,2529.23,50000,625.06,1,Collision,Single Vehicle Collision,Minor,Yes,Yes,3,No,0,1,NY,July,1
+627,Auto,71,7689.14,50000,566.78,2,Fire,Fire,Minor,No,No,0,Yes,0,0,FL,February,0
+3445,Home,28,172888.06,250000,2224.79,1,Theft,Theft,Major,No,No,0,No,4,0,TX,January,1
+2800,Commercial,56,3506.71,25000,376.4,1,Collision,Single Vehicle Collision,Minor,No,Yes,1,No,0,1,CA,January,0
+2647,Auto,45,1435.7,10000,197.96,1,Collision,Multi-Vehicle Collision,Major,No,Yes,0,No,0,3,FL,March,0
+3630,Auto,22,21948.65,50000,621.54,0,Collision,Single Vehicle Collision,Minor,No,No,1,No,0,1,TX,October,0
+2477,Auto,34,2178.32,25000,399.51,0,Collision,Multi-Vehicle Collision,Minor,Yes,Yes,3,No,0,3,NY,February,1
+2665,Commercial,73,2079.33,10000,225.14,2,Collision,Multi-Vehicle Collision,Minor,No,Yes,4,No,0,2,IL,April,0
+1546,Home,37,32434.83,100000,1082.27,1,Collision,Multi-Vehicle Collision,Major,Yes,Yes,3,Yes,0,4,FL,August,0
+2744,Auto,58,8009.53,25000,361.68,1,Fire,Fire,Minor,No,Yes,0,Yes,0,0,TX,May,1
+1310,Commercial,63,53685.17,100000,1030.46,0,Collision,Single Vehicle Collision,Major,No,No,4,Yes,4,1,TX,May,1
+3396,Commercial,75,8568.06,25000,381.87,1,Fire,Fire,Major,No,Yes,2,No,4,0,IL,June,0
+1766,Commercial,29,11881.65,25000,477.18,0,Collision,Multi-Vehicle Collision,Major,Yes,Yes,10,No,0,2,FL,December,0
+3519,Commercial,23,5267.48,50000,588.12,0,Collision,Single Vehicle Collision,Major,Yes,Yes,10,Yes,0,1,FL,May,0
+1980,Auto,34,38197.13,250000,2116.27,0,Collision,Multi-Vehicle Collision,Minor,No,No,6,No,2,2,NY,May,0
+2367,Home,68,15221.92,50000,640.5,0,Theft,Theft,Minor,No,Yes,5,No,0,0,FL,July,0
+881,Auto,36,109614.97,100000,1076.98,0,Collision,Single Vehicle Collision,Major,No,Yes,0,No,1,1,IL,June,1
+1994,Commercial,43,10558.54,25000,378.62,0,Theft,Theft,Minor,No,Yes,0,Yes,2,0,FL,October,0
+3453,Home,65,14579.37,100000,1033.94,1,Theft,Theft,Total Loss,No,No,8,No,1,0,NY,November,1
+1317,Home,61,4756.9,25000,406.47,1,Theft,Theft,Major,Yes,No,2,No,0,0,TX,February,0
+1465,Home,61,99716.35,100000,980.86,1,Theft,Theft,Minor,Yes,No,2,Yes,3,0,FL,January,1
+2714,Auto,69,8224.42,50000,642.04,0,Theft,Theft,Major,No,Yes,8,No,2,0,IL,January,0
+2329,Home,49,264724.33,250000,2160.0,4,Theft,Theft,Total Loss,No,No,4,Yes,1,0,FL,April,1
+1738,Commercial,23,15797.92,50000,601.62,0,Collision,Single Vehicle Collision,Minor,No,Yes,0,No,0,1,CA,February,0
+1610,Commercial,72,8001.77,10000,292.87,0,Theft,Theft,Major,Yes,No,1,No,1,0,NY,June,1

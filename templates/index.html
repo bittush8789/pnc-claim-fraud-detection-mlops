@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P&C Insurance Claim Fraud Detection Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-alert"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                <span>ShieldGuard SIU</span>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('index') }}" class="active">Dashboard</a></li>
+                    <li><a href="{{ url_for('predict') }}">Analyze Claim</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn-theme-toggle" aria-label="Toggle Theme"></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="hero">
+            <h1>P&C Insurance Fraud Detection Platform</h1>
+            <p>Empowering Special Investigation Units (SIU) and claim adjusters with advanced machine learning risk scoring. Instantly assess staged accidents, inflated repair costs, and suspicious claim indicators.</p>
+        </div>
+
+        <!-- KPI Stats -->
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-title">Total Claims Processed</div>
+                <div class="stat-value">{{ stats.total_claims }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">System Fraud Rate</div>
+                <div class="stat-value" style="color: var(--danger);">{{ stats.fraud_rate }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">Total Claims Under Review</div>
+                <div class="stat-value">{{ stats.total_claimed_amount }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">Average Claim Amount</div>
+                <div class="stat-value">{{ stats.average_claim }}</div>
+            </div>
+        </section>
+
+        <!-- Business Context / Problem Statement -->
+        <section style="margin-bottom: 3rem; background: var(--bg-card); border: 1px solid var(--border-color); padding: 2rem; border-radius: 1rem;">
+            <h2 style="margin-bottom: 1rem; border-left: 4px solid var(--accent); padding-left: 0.75rem;">Business Problem & System Capabilities</h2>
+            <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem;">
+                Property & Casualty (P&C) insurance fraud costs insurers billions of dollars annually. Common indicators include stage collisions, lack of police documentation, short policy lifetime prior to incident, and mismatch between coverage amounts and claimed damages.
+            </p>
+            <p style="color: var(--text-secondary); line-height: 1.6;">
+                ShieldGuard utilizes automated feature engineering and ensemble ML models (Logistic Regression, Decision Trees, Random Forests, XGBoost, and LightGBM) to deliver high-recall risk scores and explanations, preventing leakage and prioritizing investigators' workload.
+            </p>
+        </section>
+
+        <!-- Dynamic Exploratory Data Analysis Dashboard -->
+        <h2 style="margin-bottom: 1.5rem; font-size: 1.5rem; font-weight: 700;">Exploratory Data Analysis (EDA) & Insights</h2>
+        <section class="charts-grid">
+            <div class="chart-card">
+                <h3>Fraud vs Legitimate Distribution</h3>
+                <div class="chart-container">
+                    <img src="{{ url_for('static', filename='images/fraud_distribution.png') }}" alt="Fraud Distribution">
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Claim Amount Distribution</h3>
+                <div class="chart-container">
+                    <img src="{{ url_for('static', filename='images/claim_amount_distribution.png') }}" alt="Claim Amount Distribution">
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Policy Type vs Fraud Reports</h3>
+                <div class="chart-container">
+                    <img src="{{ url_for('static', filename='images/policy_type_analysis.png') }}" alt="Policy Type Analysis">
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Incident Severity vs Fraud Reports</h3>
+                <div class="chart-container">
+                    <img src="{{ url_for('static', filename='images/severity_analysis.png') }}" alt="Incident Severity Analysis">
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Claim Amount Outlier Boxplot</h3>
+                <div class="chart-container">
+                    <img src="{{ url_for('static', filename='images/outlier_analysis.png') }}" alt="Outlier Analysis">
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Fraud Rate by Claim Type</h3>
+                <div class="chart-container">
+                    <img src="{{ url_for('static', filename='images/claim_type_trends.png') }}" alt="Claim Type Trends">
+                </div>
+            </div>
+            <div class="chart-card" style="grid-column: 1 / -1;">
+                <h3>Correlation Heatmap</h3>
+                <div class="chart-container">
+                    <img src="{{ url_for('static', filename='images/correlation_heatmap.png') }}" alt="Correlation Heatmap">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ShieldGuard SIU Systems. All rights reserved. Confidential Internal Investigative Use Only.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

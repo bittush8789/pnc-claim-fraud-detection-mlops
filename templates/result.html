@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result - P&C Insurance Fraud Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* Interactive visual progress indicator for result gauge */
+        .gauge-visual {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: conic-gradient(
+                {{ result.color }} calc({{ result.risk_percentage }} * 1%),
+                var(--border-color) 0
+            );
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem auto;
+            position: relative;
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+        
+        .gauge-visual::before {
+            content: '';
+            position: absolute;
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background-color: #1e293b; /* matches card bg */
+            z-index: 1;
+        }
+
+        .gauge-text {
+            position: relative;
+            z-index: 2;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-alert"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                <span>ShieldGuard SIU</span>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('index') }}">Dashboard</a></li>
+                    <li><a href="{{ url_for('predict') }}">Analyze Claim</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn-theme-toggle" aria-label="Toggle Theme"></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="result-card">
+            <h2>Claims Analysis Report</h2>
+            <p style="color: var(--text-secondary);">ShieldGuard Automated Risk Scoring Engine</p>
+
+            <div class="gauge-visual">
+                <div class="gauge-text">{{ result.risk_percentage }}%</div>
+            </div>
+
+            <div class="risk-badge" style="background-color: {{ result.color }}20; color: {{ result.color }}; border: 1px solid {{ result.color }}">
+                {{ result.risk_level }} RISK
+            </div>
+
+            <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: {{ result.color }};">{{ result.prediction_label }}</h3>
+            <p style="font-weight: 600; margin-bottom: 2rem;">Recommendation: {{ result.recommendation }}</p>
+
+            <!-- AI Claims Copilot Narrative Report -->
+            <div style="background-color: var(--accent-glow); border: 1px solid var(--accent); padding: 1.5rem; border-radius: 0.5rem; text-align: left; margin: 2rem 0; box-shadow: var(--shadow);">
+                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                    <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin: 0;">AI Claims Copilot Analysis</h3>
+                </div>
+                <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem; font-size: 0.95rem;">
+                    {{ result.ai_narrative.summary | safe }}
+                </p>
+                
+                <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem;">Detected Warning Anomalies</h4>
+                <ul style="list-style-type: none; margin-left: 0; padding-left: 0; margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                    {% for flag in result.ai_narrative.flags %}
+                        <li style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; display: flex; align-items: flex-start; gap: 0.5rem;">
+                            <span style="color: var(--danger);">⚠️</span>
+                            <span>{{ flag | safe }}</span>
+                        </li>
+                    {% endfor %}
+                </ul>
+                
+                <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem;">AI Recommended Investigation Strategy</h4>
+                <ol style="margin-left: 1.25rem; padding-left: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                    {% for step in result.ai_narrative.plan %}
+                        <li style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5;">
+                            {{ step | safe }}
+                        </li>
+                    {% endfor %}
+                </ol>
+            </div>
+
+            <div class="result-detail">
+                <h4 style="margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; color: var(--accent);">Model Explanability & Feature Importance</h4>
+                <div style="margin: 1rem 0; border-radius: 0.5rem; overflow: hidden; background: #0f172a; border: 1px solid var(--border-color);">
+                    <img src="{{ url_for('static', filename='images/feature_importance.png') }}" alt="Feature Importance" style="width: 100%; height: auto; display: block;">
+                </div>
+
+                <h4 style="margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; color: var(--accent);">Submitted Claim Parameters</h4>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 0.5rem 2rem;">
+                    <div class="result-row"><span class="result-label">Policy Age:</span><span class="result-val">{{ inputs.policy_age_days }} Days</span></div>
+                    <div class="result-row"><span class="result-label">Policy Type:</span><span class="result-val">{{ inputs.policy_type }}</span></div>
+                    <div class="result-row"><span class="result-label">Customer Age:</span><span class="result-val">{{ inputs.customer_age }} Years</span></div>
+                    <div class="result-row"><span class="result-label">Claimed Amount:</span><span class="result-val">${{ "{:,.2f}".format(inputs.claim_amount) }}</span></div>
+                    <div class="result-row"><span class="result-label">Coverage Amount:</span><span class="result-val">${{ "{:,.2f}".format(inputs.insured_amount) }}</span></div>
+                    <div class="result-row"><span class="result-label">Premium Amount:</span><span class="result-val">${{ "{:,.2f}".format(inputs.premium_amount) }}</span></div>
+                    <div class="result-row"><span class="result-label">Previous Claims:</span><span class="result-val">{{ inputs.previous_claims }}</span></div>
+                    <div class="result-row"><span class="result-label">Claim Type:</span><span class="result-val">{{ inputs.claim_type }}</span></div>
+                    <div class="result-row"><span class="result-label">Incident Type:</span><span class="result-val">{{ inputs.incident_type }}</span></div>
+                    <div class="result-row"><span class="result-label">Severity:</span><span class="result-val">{{ inputs.incident_severity }}</span></div>
+                    <div class="result-row"><span class="result-label">Witness Present:</span><span class="result-val">{{ inputs.witness_present }}</span></div>
+                    <div class="result-row"><span class="result-label">Police Report:</span><span class="result-val">{{ inputs.police_report }}</span></div>
+                    <div class="result-row"><span class="result-label">Submission Delay:</span><span class="result-val">{{ inputs.claim_submission_delay }} Days</span></div>
+                    <div class="result-row"><span class="result-label">Property Damage:</span><span class="result-val">{{ inputs.property_damage }}</span></div>
+                    <div class="result-row"><span class="result-label">Bodily Injuries:</span><span class="result-val">{{ inputs.bodily_injuries }}</span></div>
+                    <div class="result-row"><span class="result-label">Vehicles Involved:</span><span class="result-val">{{ inputs.vehicles_involved }}</span></div>
+                    <div class="result-row"><span class="result-label">State:</span><span class="result-val">{{ inputs.state }}</span></div>
+                    <div class="result-row"><span class="result-label">Month:</span><span class="result-val">{{ inputs.claim_month }}</span></div>
+                </div>
+            </div>
+
+            <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                <a href="{{ url_for('predict') }}" class="btn">Analyze Another Claim</a>
+                <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Dashboard</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ShieldGuard SIU Systems. All rights reserved. Confidential Internal Investigative Use Only.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

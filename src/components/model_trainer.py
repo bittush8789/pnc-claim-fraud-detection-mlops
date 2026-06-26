@@ -33,33 +33,50 @@ class ModelTrainer:
 
             model_report = {}
 
+            import mlflow
+            import mlflow.sklearn
+            
+            # Start MLflow run
+            mlflow.set_experiment("PNC_Claim_Fraud_Detection")
+            
             for model_name, model in models.items():
                 logging.info(f"Training model: {model_name}...")
-                model.fit(X_train, y_train)
+                
+                with mlflow.start_run(run_name=model_name, nested=True):
+                    model.fit(X_train, y_train)
 
-                y_test_pred = model.predict(X_test)
-                y_test_prob = model.predict_proba(X_test)[:, 1]
+                    y_test_pred = model.predict(X_test)
+                    y_test_prob = model.predict_proba(X_test)[:, 1]
 
-                # Evaluate metrics
-                acc = accuracy_score(y_test, y_test_pred)
-                prec = precision_score(y_test, y_test_pred, zero_division=0)
-                rec = recall_score(y_test, y_test_pred, zero_division=0)
-                f1 = f1_score(y_test, y_test_pred, zero_division=0)
-                roc = roc_auc_score(y_test, y_test_prob)
+                    # Evaluate metrics
+                    acc = accuracy_score(y_test, y_test_pred)
+                    prec = precision_score(y_test, y_test_pred, zero_division=0)
+                    rec = recall_score(y_test, y_test_pred, zero_division=0)
+                    f1 = f1_score(y_test, y_test_pred, zero_division=0)
+                    roc = roc_auc_score(y_test, y_test_prob)
 
-                # Custom composite metric emphasizing recall and ROC-AUC
-                composite = 0.6 * rec + 0.4 * roc
-                model_report[model_name] = {
-                    "accuracy": acc,
-                    "precision": prec,
-                    "recall": rec,
-                    "f1": f1,
-                    "roc_auc": roc,
-                    "composite": composite,
-                    "model_obj": model
-                }
+                    # Log hyperparameters and metrics to MLflow
+                    mlflow.log_param("model_name", model_name)
+                    mlflow.log_metric("accuracy", acc)
+                    mlflow.log_metric("precision", prec)
+                    mlflow.log_metric("recall", rec)
+                    mlflow.log_metric("f1_score", f1)
+                    mlflow.log_metric("roc_auc", roc)
+                    mlflow.sklearn.log_model(model, artifact_path=model_name)
 
-                logging.info(f"{model_name} - Recall: {rec:.4f} | ROC-AUC: {roc:.4f} | F1: {f1:.4f} | Accuracy: {acc:.4f}")
+                    # Custom composite metric emphasizing recall and ROC-AUC
+                    composite = 0.6 * rec + 0.4 * roc
+                    model_report[model_name] = {
+                        "accuracy": acc,
+                        "precision": prec,
+                        "recall": rec,
+                        "f1": f1,
+                        "roc_auc": roc,
+                        "composite": composite,
+                        "model_obj": model
+                    }
+
+                    logging.info(f"{model_name} - Recall: {rec:.4f} | ROC-AUC: {roc:.4f} | F1: {f1:.4f} | Accuracy: {acc:.4f}")
 
             # Pick best model based on composite score
             best_model_name = max(model_report, key=lambda k: model_report[k]["composite"])

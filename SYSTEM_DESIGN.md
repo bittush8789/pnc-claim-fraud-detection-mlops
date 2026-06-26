@@ -118,3 +118,23 @@ Acts as the bridge between model serialization and web requests:
 
 ### 6. Flask Web Server (`app.py`)
 Serves as the host layer, reading data, calculating statistics, running predictions on user input, and serving Web pages.
+
+---
+
+## 🌐 Kubeflow & MLflow Integration
+
+### 1. MLflow Experiment Tracking
+ShieldGuard integrates **MLflow** for experiment tracking, model registry, and hyperparameter log archiving.
+- **Parameters Logged**: Model type (`RandomForestClassifier`, `XGBClassifier`, etc.), `n_estimators`, `max_depth`, and `learning_rate`.
+- **Metrics Logged**: Accuracy, Precision, Recall, F1 Score, and ROC-AUC area under the curve.
+- **Model Registry**: Models are automatically logged using `mlflow.sklearn.log_model(model, artifact_path=model_name)` allowing version control and staging classification.
+
+### 2. Kubeflow Pipelines (KFP)
+The end-to-end training pipeline is orchestrated as a modular DAG on **Kubeflow** (`src/pipeline/kubeflow_pipeline.py`).
+- **DAG Stages**:
+  - `data_ingestion`: Ingests and splits datasets.
+  - `data_validation`: Validates schemas and outputs `validation_report.yaml`.
+  - `data_transformation`: Preprocesses features and caches `preprocessor.pkl`.
+  - `model_training`: Trains RandomForest classifiers, logs metrics and parameters to MLflow, and registers the final models.
+- **Compilation**: The pipeline compiles to a Kubernetes KFP yaml manifest `claims_pipeline.yaml` that can be loaded directly onto Kubeflow Dashboard.
+

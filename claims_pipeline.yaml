@@ -1,0 +1,40 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: pc-claims-fraud-detection-
+  annotations:
+    pipelines.kubeflow.org/kfp_sdk_version: 2.0.0
+    pipelines.kubeflow.org/pipeline_spec: '{"description": "End-to-End P&C Insurance Fraud Detection Training Pipeline", "name": "pc-claims-fraud-detection"}'
+spec:
+  entrypoint: claims-pipeline
+  templates:
+    - name: claims-pipeline
+      dag:
+        tasks:
+          - name: data-ingestion
+            template: data-ingestion
+          - name: data-validation
+            template: data-validation
+            dependencies: [data-ingestion]
+          - name: data-transformation
+            template: data-transformation
+            dependencies: [data-ingestion]
+          - name: model-training
+            template: model-training
+            dependencies: [data-transformation]
+    - name: data-ingestion
+      container:
+        image: python:3.11-slim
+        command: [python, -c, "print('Running data ingestion split...')"]
+    - name: data-validation
+      container:
+        image: python:3.11-slim
+        command: [python, -c, "print('Running data validation schema checks...')"]
+    - name: data-transformation
+      container:
+        image: python:3.11-slim
+        command: [python, -c, "print('Running feature transformations...')"]
+    - name: model-training
+      container:
+        image: python:3.11-slim
+        command: [python, -c, "print('Running RandomForest training and logging to MLflow...')"]

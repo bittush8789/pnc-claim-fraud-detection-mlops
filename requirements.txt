@@ -7,3 +7,6 @@ matplotlib
 seaborn
 flask
 jinja2
+mlflow
+kfp
+pyyaml
